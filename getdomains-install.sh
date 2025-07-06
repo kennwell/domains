@@ -13,12 +13,14 @@ cat << EOF > /etc/hotplug.d/iface/30-vpnroute
 #!/bin/sh
 
 ip route add table vpn default dev wg0
+ip rule add fwmark 0x1 table main priority 200
 EOF
     elif [ "$TUNNEL" == awg ]; then
 cat << EOF > /etc/hotplug.d/iface/30-vpnroute
 #!/bin/sh
 
 ip route add table vpn default dev awg0
+ip rule add fwmark 0x1 table main priority 200
 EOF
     elif [ "$TUNNEL" == singbox ] || [ "$TUNNEL" == ovpn ] || [ "$TUNNEL" == tun2socks ]; then
 cat << EOF > /etc/hotplug.d/iface/30-vpnroute
@@ -26,10 +28,27 @@ cat << EOF > /etc/hotplug.d/iface/30-vpnroute
 
 sleep 10
 ip route add table vpn default dev tun0
+ip rule add fwmark 0x1 table main priority 200
 EOF
     fi
 
     cp /etc/hotplug.d/iface/30-vpnroute /etc/hotplug.d/net/30-vpnroute
+    ip rule add fwmark 0x1 table main priority 200
+
+    # Ensure the rule is in /etc/rc.local
+    if [ -f /etc/rc.local ]; then
+        if grep -q 'exit 0' /etc/rc.local; then
+            sed -i '/exit 0/i ip rule add fwmark 0x1 table main priority 200' /etc/rc.local
+        else
+            echo 'ip rule add fwmark 0x1 table main priority 200' >> /etc/rc.local
+            echo 'exit 0' >> /etc/rc.local
+        fi
+    else
+        echo '#!/bin/sh' > /etc/rc.local
+        echo 'ip rule add fwmark 0x1 table main priority 200' >> /etc/rc.local
+        echo 'exit 0' >> /etc/rc.local
+        chmod +x /etc/rc.local
+    fi
 }
 
 add_mark() {
@@ -633,7 +652,7 @@ add_getdomains() {
     done
 
     if [ "$COUNTRY" == 'russia_inside' ]; then
-        EOF_DOMAINS=DOMAINS=https://raw.githubusercontent.com/kennwell/domains/main/inside-dnsmasq-nfset.lst
+        EOF_DOMAINS=DOMAINS=https://raw.githubusercontent.com/itdoginfo/allow-domains/main/Russia/inside-dnsmasq-nfset.lst
     elif [ "$COUNTRY" == 'russia_outside' ]; then
         EOF_DOMAINS=DOMAINS=https://raw.githubusercontent.com/itdoginfo/allow-domains/main/Russia/outside-dnsmasq-nfset.lst
     elif [ "$COUNTRY" == 'ukraine' ]; then
