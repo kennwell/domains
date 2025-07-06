@@ -19,13 +19,11 @@ jobs:
           curl -sfL https://raw.githubusercontent.com/itdoginfo/allow-domains/main/Russia/inside-raw.lst \
             -o domains/inside-raw-itdog.lst || echo "# fetch failed" > domains/inside-raw-itdog.lst
 
-      - name: Merge and transform
+      - name: Merge and transform (optimized with awk)
         run: |
-          cat inside-raw.lst domains/inside-raw-itdog.lst 2>/dev/null | \
-            grep -v '^#' | grep -v '^[[:space:]]*$' | \
-            sort -u | \
-            sed 's|^|nftset=/|' | \
-            sed 's|$|/4#inet#fw4#vpn_domains|' > domains/inside-dnsmasq-nfset.lst
+          awk '!/^#/ && NF { domains[$0] = 1 } END { for (d in domains) print "nftset=/" d "/4#inet#fw4#vpn_domains" }' \
+            inside-raw.lst domains/inside-raw-itdog.lst | sort > domains/inside-dnsmasq-nfset.lst
+            
 
       - name: Commit and push if changed
         run: |
