@@ -32,6 +32,7 @@ pages.dev
 videodelivery.net
 imagedelivery.net
 cloudflarestatus.com
+cdnjs.com
 
 #hp
 hp.com
@@ -97,6 +98,60 @@ gvt1.com
 gstatic.com
 firebaseio.com
 1e100.net
+
+#google ai
+deepmind.com
+deepmind.google
+geller-pa.googleapis.com
+generativelanguage.googleapis.com
+proactivebackend-pa.googleapis.com
+ai.google.dev
+alkalimakersuite-pa.clients6.google.com
+generativeai.google
+makersuite.google.com
+aistudio.google.com
+bard.google.com
+gemini.google
+gemini.google.com
+notebooklm.google.com
+clients6.google.com
+notebooklm.google
+jules.google
+jules.google.com
+labs.google
+
+#google play
+googleplay.com
+play-fe.googleapis.com
+play-games.googleusercontent.com
+play-lh.googleusercontent.com
+play.google.com
+play.googleapis.com
+lh3.googleusercontent.com
+connectivitycheck.gstatic.com
+android.clients.google.com
+prod-lt-playstoregatewayadapter-pa.googleapis.com
+beacons.gvt2.com
+gvt1.com
+
+#youtube
+youtube.com
+ytimg.com
+yting.com
+ggpht.com
+googlevideo.com
+youtubekids.com
+youtu.be
+youtube-nocookie.com
+wide-youtube.l.google.com
+ytimg.l.google.com
+youtubei.googleapis.com
+youtubeembeddedplayer.googleapis.com
+youtube-ui.l.google.com
+yt-video-upload.l.google.com
+jnn-pa.googleapis.com
+returnyoutubedislikeapi.com
+yt3.googleusercontent.com
 
 #### from default.conf
 # Google
