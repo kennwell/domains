@@ -8,19 +8,20 @@ on:
 jobs:
   merge:
     runs-on: ubuntu-latest
-    steps:
 
+    steps:
       - name: Checkout repo
         uses: actions/checkout@v3
 
-      - name: Fetch external list
+      - name: Fetch external list and store
         run: |
-          curl -sfL https://raw.githubusercontent.com/itdoginfo/allow-domains/main/Russia/inside-raw.lst -o inside-raw-itdog.lst || echo "# failed to download" > inside-raw-itdog.lst
+          mkdir -p domains
+          curl -sfL https://raw.githubusercontent.com/itdoginfo/allow-domains/main/Russia/inside-raw.lst \
+            -o domains/inside-raw-itdog.lst || echo "# fetch failed" > domains/inside-raw-itdog.lst
 
       - name: Merge and transform
         run: |
-          mkdir -p domains
-          cat inside-raw.lst inside-raw-itdog.lst 2>/dev/null | \
+          cat inside-raw.lst domains/inside-raw-itdog.lst 2>/dev/null | \
             grep -v '^#' | grep -v '^[[:space:]]*$' | \
             sort -u | \
             sed 's|^|nftset=/|' | \
@@ -29,7 +30,9 @@ jobs:
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add domains/inside-dnsmasq-nfset.lst
-          git diff --cached --quiet || git commit -m "Update merged domain list"
-          git push
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add domains/inside-raw-itdog.lst domains/inside-dnsmasq-nfset.lst
+          git diff --cached --quiet || git commit -m "Update domain lists"
+          git push https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ github.repository }}.git HEAD:main
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
