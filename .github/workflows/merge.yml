@@ -1,0 +1,35 @@
+name: Merge Domain Lists
+
+on:
+  schedule:
+    - cron: '0 * * * *'
+  workflow_dispatch:
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Fetch external list
+        run: |
+          curl -sfL https://raw.githubusercontent.com/itdoginfo/allow-domains/main/Russia/inside-raw.lst -o inside-raw-itdog.lst || echo "# failed to download" > inside-raw-itdog.lst
+
+      - name: Merge and transform
+        run: |
+          mkdir -p domains
+          cat inside-raw.lst inside-raw-itdog.lst 2>/dev/null | \
+            grep -v '^#' | grep -v '^[[:space:]]*$' | \
+            sort -u | \
+            sed 's|^|nftset=/|' | \
+            sed 's|$|/4#inet#fw4#vpn_domains|' > domains/inside-dnsmasq-nfset.lst
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add domains/inside-dnsmasq-nfset.lst
+          git diff --cached --quiet || git commit -m "Update merged domain list"
+          git push
