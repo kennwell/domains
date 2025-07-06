@@ -29,8 +29,11 @@ agents.media
 ahrefs.com
 ai-chat.bsg.brave.com
 ai.com
+ai.google.dev
 airtable.com
+aistudio.google.com
 algolia.net
+alkalimakersuite-pa.clients6.google.com
 allegro.pl
 alphacoders.com
 alza.hu
@@ -44,6 +47,7 @@ ampproject.org
 amx.com
 analog.com
 andrevi.ch
+android.clients.google.com
 android.com
 androidify.com
 anidub.com
@@ -87,11 +91,13 @@ babook.org
 baginya.org
 baikal-journal.ru
 bam.nr-data.net
+bard.google.com
 bato.to
 bbc.co.uk
 bbc.com
 bbci.co.uk
 bcbits.com
+beacons.gvt2.com
 bell-sw.com
 bellingcat.com
 bestbuy.com
@@ -147,6 +153,7 @@ cdn.segment.com
 cdn.web-platform.io
 cdnbunny.org
 cdninstagram.com
+cdnjs.com
 cdromance.org
 cdw.com
 censortracker.org
@@ -178,6 +185,7 @@ clickup-attachments.com
 clickup-au.com
 clickup.com
 client-api.arkoselabs.com
+clients6.google.com
 clip.opus.pro
 cloudflare-dns.com
 cloudflare-eth.com
@@ -201,6 +209,7 @@ coinsbee.com
 coldfilm.xyz
 colta.ru
 community.sophos.com
+connectivitycheck.gstatic.com
 contabo.com
 coomer.su
 copilot.microsoft.com
@@ -226,6 +235,7 @@ debug.com
 decrypt.day
 deepl.com
 deepmind.com
+deepmind.google
 deepstatemap.live
 delfi.lt
 delfi.lv
@@ -350,6 +360,11 @@ gamesrepack.com
 gaming.amazon.com
 geforcenow.com
 gelbooru.com
+geller-pa.googleapis.com
+gemini.google
+gemini.google.com
+generativeai.google
+generativelanguage.googleapis.com
 geolocation.onetrust.com
 germania.one
 getmdl.io
@@ -376,6 +391,7 @@ goodreads.com
 google.com
 google.net
 google.org
+googleplay.com
 googlevideo.com
 gpsonextra.net
 gpu-monkey.com
@@ -476,6 +492,8 @@ jetbrains.space
 jnn-pa.googleapis.com
 js-agent.newrelic.com
 jskor.ill.in.ua
+jules.google
+jules.google.com
 jut-su.net
 jut.su
 kaktus.media
@@ -505,6 +523,7 @@ kovcheg.live
 krymr.com
 kupujemprodajem.com
 kym-cdn.com
+labs.google
 lambdalabs.com
 lamcdn.net
 langdock.com
@@ -512,6 +531,7 @@ launchdarkly.com
 ldoceonline.com
 le-production.tv
 leafletjs.com
+lh3.googleusercontent.com
 libgen.li
 licdn.com
 lidarr.audio
@@ -534,6 +554,7 @@ mailfence.com
 mailinator.com
 mailo.com
 make.com
+makersuite.google.com
 malwarebytes.com
 mangadex.org
 mangahub.ru
@@ -611,6 +632,8 @@ nnmstatic.win
 nordaccount.com
 nordcdn.com
 nordvpn.com
+notebooklm.google
+notebooklm.google.com
 notepad-plus-plus.org
 notion-static.com
 notion.com
@@ -677,6 +700,11 @@ pingdom.com
 piratbit.top
 pkgs.tailscale.com
 platform.activestate.com
+play-fe.googleapis.com
+play-games.googleusercontent.com
+play-lh.googleusercontent.com
+play.google.com
+play.googleapis.com
 playboy.com
 plugshare.com
 poe.com
@@ -698,6 +726,7 @@ primevideo.com
 privatekeys.pw
 prnt.sc
 proactivebackend-pa.googleapis.com
+prod-lt-playstoregatewayadapter-pa.googleapis.com
 production-openaicom-storage.azureedge.net
 proekt.media
 prosleduetmedia.com
