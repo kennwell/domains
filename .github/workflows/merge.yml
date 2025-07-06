@@ -15,18 +15,16 @@ jobs:
 
       - name: Fetch external list and store
         run: |
-          mkdir -p domains
           curl -sfL https://raw.githubusercontent.com/itdoginfo/allow-domains/main/Russia/inside-raw.lst \
             -o domains/inside-raw-itdog.lst || echo "# fetch failed" > domains/inside-raw-itdog.lst
 
       - name: Merge and transform
         run: |
-          cat inside-raw.lst domains/inside-raw-itdog.lst 2>/dev/null | \
+          cat domains/inside-raw.lst domains/inside-raw-itdog.lst 2>/dev/null | \
             grep -v '^#' | grep -v '^[[:space:]]*$' | \
             sort -u | \
             sed 's|^|nftset=/|' | \
             sed 's|$|/4#inet#fw4#vpn_domains|' > domains/inside-dnsmasq-nfset.lst
-            
 
       - name: Commit and push if changed
         run: |
