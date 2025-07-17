@@ -23,8 +23,7 @@ jobs:
           cat inside-raw.lst inside-raw-itdog.lst 2>/dev/null | \
             grep -v '^#' | grep -v '^[[:space:]]*$' | \
             sort -u | tee inside-raw-merged.lst | \
-            sed 's|^|nftset=/|' | \
-            sed 's|$|/4#inet#fw4#vpn_domains|' > inside-dnsmasq-nfset.lst
+            sed 's|^\(\.\{0,1\}.*\)$|nftset=/\1/4#inet#fw4#vpn_domains|' > inside-dnsmasq-nfset.lst
 
       - name: Commit and push if changed
         run: |
