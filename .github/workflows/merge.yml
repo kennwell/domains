@@ -22,28 +22,14 @@ jobs:
         run: |
           cat inside-raw.lst inside-raw-itdog.lst 2>/dev/null | \
             grep -v '^#' | grep -v '^[[:space:]]*$' | \
-            awk '{ print NF, $0 }' FS='.' | sort -n | cut -d' ' -f2- | \
-            awk '{
-              domain=$0
-              n=split(domain, parts, ".")
-              for (i=2; i<=n; i++) {
-                sub=""
-                for (j=i; j<=n; j++) {
-                  sub = sub ((j==i) ? "" : ".") parts[j]
-                }
-                if (seen[sub]) next
-              }
-              seen[domain]=1
-              print domain
-            }' | \
-            tee inside-raw-merged.lst | \
-            sed 's|^\(\.\{0,1\}.*\)$|nftset=/\1/4#inet#fw4#vpn_domains|' > inside-dnsmasq-nfset.lst1
+            sort -u | tee inside-raw-merged.lst | \
+            sed 's|^\(\.\{0,1\}.*\)$|nftset=/\1/4#inet#fw4#vpn_domains|' > inside-dnsmasq-nfset.lst
 
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add inside-raw-itdog.lst inside-raw-merged.lst inside-dnsmasq-nfset.lst1
+          git add inside-raw-itdog.lst inside-raw-merged.lst inside-dnsmasq-nfset.lst
           git diff --cached --quiet || git commit -m "Update domain lists"
           git push https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ github.repository }}.git HEAD:main
         env:
