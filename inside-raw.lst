@@ -282,6 +282,7 @@ yt.be
 ytimg.com
 
 # ChatGPT
+chatgpt.com
 api.statsig.com
 browser-intake-datadoghq.com
 chat.openai.com.cdn.cloudflare.net
@@ -298,11 +299,12 @@ algolia.net
 auth0.com
 #DOMAIN-SUFFIX,cdn.cloudflare.net,PROXY
 challenges.cloudflare.com
-chatgpt.livekit.cloud
+#chatgpt.livekit.cloud
+livekit.cloud
 client-api.arkoselabs.com
 events.statsigapi.net
 featuregates.org
-host.livekit.cloud
+#host.livekit.cloud
 identrust.com
 intercomcdn.com
 launchdarkly.com
@@ -316,7 +318,7 @@ poe.com
 segment.io
 sentry.io
 stripe.com
-turn.livekit.cloud
+#turn.livekit.cloud
 
 # sb-rule-sets/ru-bundle.lst
 10minutemail.com
