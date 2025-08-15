@@ -1,36 +1,69 @@
 name: Merge Domain Lists
+# This workflow merges domain lists from different sources into unified files for use in DNS and firewall configurations.
 
 on:
   schedule:
     - cron: '0 */8 * * *'
   workflow_dispatch:
+# The workflow is triggered every 8 hours by a cron schedule and can also be triggered manually.
 
 jobs:
   merge:
     runs-on: ubuntu-latest
+    # The job runs on the latest Ubuntu virtual environment provided by GitHub Actions.
 
     steps:
       - name: Checkout repo
+        # Checks out the repository to the runner so the workflow can access the files.
         uses: actions/checkout@v3
 
       - name: Fetch external list and store
+        # Downloads an external domain list and saves it locally, or creates a placeholder if the fetch fails.
         run: |
+          # Attempt to download the external domain list from GitHub.
           curl -sfL https://raw.githubusercontent.com/itdoginfo/allow-domains/main/Russia/inside-raw.lst \
             -o inside-raw-itdog.lst || echo "# fetch failed" > inside-raw-itdog.lst
 
       - name: Merge and transform
+        # Merges the local and external domain lists, removes comments and empty lines, sorts uniquely,
+        # saves the merged list, and creates a transformed list for nftables sets.
         run: |
+          # Concatenate both domain lists, ignoring errors if files don't exist.
           cat inside-raw.lst inside-raw-itdog.lst 2>/dev/null | \
+            # Filter out comment lines starting with '#' and blank lines.
             grep -v '^#' | grep -v '^[[:space:]]*$' | \
+            # Sort the combined list uniquely.
             sort -u | tee inside-raw-merged.lst | \
+            # Transform each domain into nftables set format and save to output file.
             sed 's|^\(\.\{0,1\}.*\)$|nftset=/\1/4#inet#fw4#vpn_domains|' > inside-dnsmasq-nfset.lst
 
-      - name: Commit and push if changed
+      - name: Build inside-merged-yaml.txt
+        # Processes the merged domain list to create a YAML formatted file with domain prefixes.
         run: |
+          # Use awk to transform domain entries according to patterns:
+          # - Preserve comment lines.
+          # - Prefix domains starting with '.' with '+'.
+          # - Replace 'www.' with '+.' prefix.
+          # - Prefix alphanumeric domains with '+.'.
+          awk 'BEGIN{OFS=""}
+               /^#/                 {print; next}
+               /^\./                {print "+",$0; next}
+               /^www\./             {sub(/^www\./,"+."); print; next}
+               /^[A-Za-z0-9]/       {print "+.",$0; next}
+                                     {print}
+          ' inside-raw-merged.lst > inside-merged-yaml.txt
+
+      - name: Commit and push if changed
+        # Configures git, commits any changes to the domain list files, and pushes to the main branch.
+        run: |
+          # Set git user name and email for the commit.
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add inside-raw-itdog.lst inside-raw-merged.lst inside-dnsmasq-nfset.lst
+          # Stage the updated domain list files.
+          git add inside-raw-itdog.lst inside-raw-merged.lst inside-dnsmasq-nfset.lst inside-merged-yaml.txt
+          # Commit only if there are staged changes.
           git diff --cached --quiet || git commit -m "Update domain lists"
+          # Push commits to the main branch using the provided GitHub token.
           git push https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ github.repository }}.git HEAD:main
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
