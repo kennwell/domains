@@ -330,8 +330,10 @@
 +.copilot-proxy.githubusercontent.com
 +.copilot.microsoft.com
 +.corel.com
++.corel.net
 +.coreldraw.app
 +.coreldraw.com
++.corelstore.com
 +.corsair.com
 +.coursera.org
 +.cpu-monkey.com
