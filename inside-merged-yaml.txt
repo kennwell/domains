@@ -329,6 +329,7 @@
 +.copernicus.eu
 +.copilot-proxy.githubusercontent.com
 +.copilot.microsoft.com
++.corel.app
 +.corel.com
 +.coreldraw.com
 +.corsair.com
