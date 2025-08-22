@@ -28,6 +28,13 @@ corelstore.com
 #199.115.110.0/23
 #2620:e6::/48
 
+# teamviewer
+teamviewer.cn
+teamviewer.com
+teamviewer.us
+client-teamviewer-com.trafficmanager.net
+teamviewer.com.cdn.cloudflare.net
+
 
 #vpn
 amnezia.org
