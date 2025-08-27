@@ -779,6 +779,8 @@
 +.jules.google.com
 +.jut-su.net
 +.jut.su
++.jw-russia.org
++.jw.org
 +.kaktus.media
 +.kaleido.ai
 +.kamatera.com
@@ -925,6 +927,7 @@
 +.middlewareinventory.com
 +.mignews.com
 +.militarnyi.com
++.miracleptr.wordpress.com
 +.mixcloud.com
 +.mixpanel.com
 +.mobile.events.data.microsoft.com
@@ -1343,6 +1346,8 @@
 +.smartbear.co
 +.smartbear.com
 +.smartdeploy.com
++.sms-activate.io
++.snapgene.com
 +.snapmagic.com
 +.sndcdn.com
 +.snort.org
@@ -1542,6 +1547,7 @@
 +.ubnt.com
 +.ufile.io
 +.ui.ill.in.ua
++.uizard.io
 +.ukr.net
 +.ukr.radio
 +.ukrtelcdn.net
