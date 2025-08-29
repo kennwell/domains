@@ -135,8 +135,10 @@
 +.arc.intel.com
 +.archive.ph
 +.archiveofourown.org
++.archlinux.org
 +.arm.com
 +.artifacts.elastic.co
++.artstation.com
 +.as6723.net
 +.assets.heroku.com
 +.atlassian.com
@@ -172,6 +174,7 @@
 +.bcbits.com
 +.beacon3d.com
 +.beacons.gvt2.com
++.beamng.com
 +.bell-sw.com
 +.bellingcat.com
 +.bestbuy.com
@@ -270,6 +273,7 @@
 +.chatfuel.com
 +.chatgpt.com
 +.chaturbate.com
++.check-host.net
 +.checkout.buckaroo.nl
 +.cherta.media
 +.chess.com
@@ -285,8 +289,11 @@
 +.clarabridge.net
 +.clashofclans.com
 +.clashroyaleapp.com
++.clashverge.dev
 +.clashx.org
 +.claude.ai
++.clerk.com
++.clerk.dev
 +.clevelandclinic.org
 +.clickup-attachments.com
 +.clickup-au.com
@@ -378,6 +385,7 @@
 +.dell.com
 +.dellcdn.com
 +.depositphotos.com
++.desec.io
 +.designer.microsoft.com
 +.designify.com
 +.devart.com
@@ -394,6 +402,7 @@
 +.digitalcontent.sky
 +.digitalocean.com
 +.dis.gd
++.discogs.com
 +.discord-activities.com
 +.discord-attachments-uploads-prd.storage.googleapis.com
 +.discord.co
@@ -457,6 +466,7 @@
 +.edgeservices.bing.com
 +.editorx.com
 +.edu-cisco.org
++.edx.org
 +.ef.com
 +.ef.edu
 +.eggertspiele.de
@@ -489,6 +499,7 @@
 +.expandrive.com
 +.expres.online
 +.extremetech.com
++.ezgif.com
 +.f1.com
 +.f95-zone.to
 +.facebook.com
@@ -517,6 +528,7 @@
 +.firebaseio.com
 +.firefly-ps.adobe.io
 +.flashscore.com
++.flclash.cc
 +.flexpool.io
 +.flibusta.is
 +.flibusta.net
@@ -543,7 +555,10 @@
 +.fortinet.com
 +.forum.netgate.com
 +.forum.ru-board.com
++.forum.syncthing.net
 +.forum.voynaplemyon.com
++.fosshub.com
++.fossorial.io
 +.fotoforensics.com
 +.foxnews.com
 +.foxtrot.com.ua
@@ -667,9 +682,11 @@
 +.hdrezka.fm
 +.hdrezka.me
 +.healthline.com
++.heavyfetish.com
 +.helm.releases.hashicorp.com
 +.hentai-foundry.com
 +.herokucdn.com
++.hetzner.cloud
 +.hetzner.com
 +.hex-rays.com
 +.heygen.com
@@ -729,6 +746,7 @@
 +.indiehackers.com
 +.infineon.com
 +.informit.com
++.inoreader.com
 +.insanelymac.com
 +.insearch.site
 +.insideevs.com
@@ -754,7 +772,9 @@
 +.intuitibits.com
 +.ionos.com
 +.ios.chat.openai.com
++.iot334.com
 +.iperf3serverlist.net
++.ipinfo.app
 +.ipinfo.io
 +.iptv.online
 +.ipwho.is
@@ -764,11 +784,14 @@
 +.itasoftware.com
 +.itninja.com
 +.itsmycity.ru
++.ixxx.com
++.izzysoft.de
 +.jabra.com
 +.jamf.com
 +.jetbrains.ai
 +.jetbrains.com
 +.jetbrains.space
++.jinxxy.com
 +.jnn-pa.googleapis.com
 +.joesandbox.com
 +.joyreactor.cc
@@ -785,6 +808,7 @@
 +.kaleido.ai
 +.kamatera.com
 +.kara.su
++.karing.app
 +.kasparov.ru
 +.kavkaz-uzel.eu
 +.kavkazr.com
@@ -869,6 +893,7 @@
 +.macpaw.com
 +.macvendors.com
 +.madewithcode.com
++.magicalchemy.org
 +.mail-api.proton.me
 +.mail.protonmail.com
 +.mailchimp.com
@@ -884,6 +909,7 @@
 +.mangadex.org
 +.mangahub.ru
 +.mangapark.net
++.manjaro.org
 +.manus.im
 +.marketo.com
 +.marketplace.atlassian.com
@@ -928,6 +954,7 @@
 +.mignews.com
 +.militarnyi.com
 +.miracleptr.wordpress.com
++.mirror.chaotic.cx
 +.mixcloud.com
 +.mixpanel.com
 +.mobile.events.data.microsoft.com
@@ -967,6 +994,7 @@
 +.nekoray.org
 +.neo4j.com
 +.netapp.com
++.netbird.io
 +.netflix.ca
 +.netflix.com
 +.netflix.net
@@ -981,6 +1009,8 @@
 +.newsru.com
 +.newstudio.tv
 +.newtimes.ru
++.nextcloud.com
++.nexusmods.com
 +.nfl.com
 +.nflxext.com
 +.nflximg.com
@@ -1026,6 +1056,7 @@
 +.oaiusercontent.com
 +.oasis.app
 +.observeit.net
++.ocbase.com
 +.oclc.org
 +.ocstore.com
 +.octopart-clicks.com
@@ -1056,6 +1087,7 @@
 +.openrouter.ai
 +.opensanctions.org
 +.opensea.io
++.openwrt.org
 +.openwrt.wk.cz
 +.opposition-news.com
 +.optimizely.com
@@ -1086,6 +1118,7 @@
 +.paraswap.io
 +.parsec.app
 +.parts-express.com
++.pastebin.com
 +.path3.xtracloud.net
 +.patreon.com
 +.patriot.dp.ua
@@ -1133,6 +1166,7 @@
 +.plugshare.com
 +.pluralsight.com
 +.pny.com
++.podkop.net
 +.poe.com
 +.polit.ru
 +.politico.eu
@@ -1160,6 +1194,7 @@
 +.prosleduetmedia.com
 +.prostovpn.org
 +.proton.me
++.protondb.com
 +.protonmail.com
 +.protonvpn.com
 +.provereno.media
@@ -1243,6 +1278,7 @@
 +.ruckuswireless.com
 +.rule34.art
 +.rule34.xxx
++.rulet.tv
 +.rus-media.org
 +.rus.delfi.ee
 +.rus.delfi.lv
@@ -1327,6 +1363,7 @@
 +.simplex.chat
 +.simplex.im
 +.simplix.info
++.sing-box.sagernet.org
 +.singlekey-id.com
 +.site.com
 +.skat.media
@@ -1364,6 +1401,7 @@
 +.soundcloud.com
 +.sovetromantica.com
 +.spacelift.io
++.spankbang.com
 +.speedtest.net
 +.spektr.press
 +.spiceworks.com
@@ -1420,6 +1458,8 @@
 +.svtv.org
 +.swagger.io
 +.swissinfo.ch
++.sxyprn.com
++.sxyprn.net
 +.sydney.bing.com
 +.syncfusion.com
 +.synergyse.com
@@ -1509,6 +1549,7 @@
 +.trellix.com
 +.tria.ge
 +.trionworlds.com
++.trueachievements.com
 +.trueblackmetalradio.com
 +.truthsocial.com
 +.trycloudflare.com
@@ -1520,6 +1561,13 @@
 +.tuta.com
 +.tuta.io
 +.tutanota.com
++.tuya-inc.cn
++.tuya.com
++.tuyaaf.com
++.tuyacn.com
++.tuyaeu.com
++.tuyain.com
++.tuyaus.com
 +.tvfreedom.io
 +.tvn24.pl
 +.tvrain.ru
@@ -1596,6 +1644,7 @@
 +.vmware.com
 +.vndb.org
 +.voanews.com
++.vod.streamgum.com
 +.voidboost.cc
 +.volkswagen-classic-parts.com
 +.vot-tak.tv
@@ -1606,6 +1655,8 @@
 +.vpnpay.io
 +.vpnunlimited.com
 +.vpshostingservice.co
++.vrchat.cloud
++.vrchat.com
 +.vrv.co
 +.vyos.io
 +.w.atwiki.jp
@@ -1642,6 +1693,7 @@
 +.wilsoncenter.org
 +.windguru.cz
 +.windows10spotlight.com
++.windowsupdate.com
 +.windsurf.com
 +.wixmp.com
 +.wk.cz
@@ -1707,6 +1759,7 @@
 +.xvideos-cdn.com
 +.xvideos.com
 +.yande.re
++.yarnpkg.com
 +.yeggi.com
 +.yithemes.com
 +.yle.fi
@@ -1734,6 +1787,7 @@
 +.zerkalo.io
 +.zerolab.net
 +.zerossl.com
++.zerotier.com
 +.zetalliance.org
 +.zetflix.online
 +.zf.com
