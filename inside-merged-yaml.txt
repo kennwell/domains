@@ -651,6 +651,7 @@
 +.graty.me
 +.graylog.org
 +.grazie.ai
++.grizzlysms.com
 +.grohe.us
 +.grok.com
 +.groq.com
@@ -846,6 +847,7 @@
 +.lambdalabs.com
 +.lamcdn.net
 +.langdock.com
++.lantern.io
 +.launchdarkly.com
 +.ldoceonline.com
 +.le-production.tv
@@ -854,6 +856,8 @@
 +.lenovo.com
 +.lenso.ai
 +.letyshops.com
++.lgeapi.com
++.lgthinq.com
 +.lh3.googleusercontent.com
 +.lib.rus.ec
 +.libgen.li
@@ -1283,6 +1287,7 @@
 +.rus.delfi.ee
 +.rus.delfi.lv
 +.rus.jauns.lv
++.ruscryde.net
 +.rustorka.com
 +.rutor.info
 +.rutor.is
@@ -1315,6 +1320,22 @@
 +.sci-hub.st
 +.scontent.cdninstagram.com
 +.screamingfrog.co.uk
++.scryde.io
++.scryde.net
++.scryde.ru
++.scryde.world
++.scryde1.net
++.scryde10.net
++.scryde11.net
++.scryde12.net
++.scryde2.net
++.scryde3.net
++.scryde4.net
++.scryde5.net
++.scryde6.net
++.scryde7.net
++.scryde8.net
++.scryde9.net
 +.sdxcentral.com
 +.search.clickup-eu.com
 +.search.clickup-prod.com
