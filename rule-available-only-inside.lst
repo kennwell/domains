@@ -1,10 +1,10 @@
 # v1
 
-+.rzd.ru          # Russian Railways
-+.rzd-bonus.ru    # Russian Railways Bonus Program
-+.pochta.ru       # Russian Post
-+.russianpost.ru  # Russian Post (domain for mobile app)
-+.dzvr.ru         # Directorate of railway stations
++.rzd.ru
++.rzd-bonus.ru
++.pochta.ru
++.russianpost.ru
++.dzvr.ru
 
 # Other
 
@@ -16,7 +16,7 @@
 +.ozone.ru
 +.ozonusercontent.com
 +.yadro.ru
-+.yandex.ru # Not blocked, but actually non functional due to huge amount of captcha
++.yandex.ru
 +.yandex.net
 +.kinopoisk.ru
 +.lemanapro.ru
@@ -24,7 +24,7 @@
 +.mosenergosbyt.ru
 +.mosoblgaz.ru
 +.mosobleirc.ru
-+.xn--90aijkdmaud0d.xn--p1ai # мособлеирц.рф
++.xn--90aijkdmaud0d.xn--p1ai
 
 +.pesc.ru
 +.showip.net
