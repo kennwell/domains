@@ -1,5 +1,8 @@
 # v1
 
+
+# сайты, которые открываются только внутри России
+
 +.rzd.ru
 +.rzd-bonus.ru
 +.pochta.ru
@@ -16,8 +19,6 @@
 +.ozone.ru
 +.ozonusercontent.com
 +.yadro.ru
-+.yandex.ru
-+.yandex.net
 +.kinopoisk.ru
 +.lemanapro.ru
 +.leroymerlin.ru
@@ -29,3 +30,6 @@
 +.pesc.ru
 +.showip.net
 +.ttk.ru
+
+#+.yandex.ru
+#+.yandex.net
