@@ -19,9 +19,11 @@ jobs:
 
       - name: Fetch external list and store
         # Downloads an external domain list and saves it locally, or creates a placeholder if the fetch fails.
+        # was https://raw.githubusercontent.com/itdoginfo/allow-domains/main/Russia/inside-raw.lst
+        # new https://raw.githubusercontent.com/legiz-ru/sb-rule-sets/refs/heads/main/ru-bundle.lst
         run: |
           # Attempt to download the external domain list from GitHub.
-          curl -sfL https://raw.githubusercontent.com/itdoginfo/allow-domains/main/Russia/inside-raw.lst \
+          curl -sfL https://raw.githubusercontent.com/legiz-ru/sb-rule-sets/main/ru-bundle.lst \
             -o inside-raw-itdog.lst || echo "# fetch failed" > inside-raw-itdog.lst
 
       - name: Merge and transform
