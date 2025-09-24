@@ -1,5 +1,4 @@
 +.google
-+.ua
 +.10minutemail.com
 +.1337x.to
 +.1e100.net
@@ -40,6 +39,7 @@
 +.admin.recaptcha.net
 +.adminforge.de
 +.adobe.com
++.adobe.io
 +.adroll.com
 +.ads-twitter.com
 +.adultmult.tv
@@ -53,13 +53,16 @@
 +.ai-chat.bsg.brave.com
 +.ai.com
 +.ai.google.dev
++.ai.zhaomi.cn
 +.airbrake.io
 +.airtable.com
 +.airtableusercontent.com
++.aisandbox-pa.googleapis.com
 +.aistudio.google.com
 +.alberta.ca
 +.algolia.net
 +.alienwarearena.com
++.alkalicore-pa.clients6.google.com
 +.alkalimakersuite-pa.clients6.google.com
 +.allegro.pl
 +.alltrails.com
@@ -101,6 +104,7 @@
 +.anistars.ru
 +.annas-archive.org
 +.annimon.com
++.ansible.com
 +.ansys.com
 +.anthropic.com
 +.antizapret.prostovpn.org
@@ -129,6 +133,7 @@
 +.app.paraswap.io
 +.app.zerossl.com
 +.apphousekitchen.com
++.apple.com
 +.appspot.com
 +.appstorrent.ru
 +.apt.releases.hashicorp.com
@@ -154,6 +159,7 @@
 +.auth0.com
 +.auth0.openai.com
 +.autodesk.com
++.autodesk.net
 +.autodraw.com
 +.av-connection.com
 +.avcdn.net
@@ -163,6 +169,7 @@
 +.babook.org
 +.bacch.com
 +.baginya.org
++.baichuan-ai.com
 +.baikal-journal.ru
 +.bam.nr-data.net
 +.bard.google.com
@@ -178,6 +185,7 @@
 +.bellingcat.com
 +.bestbuy.com
 +.bestchange.ru
++.bigmodel.cn
 +.bihus.info
 +.bing.com
 +.bitbucket.org
@@ -211,6 +219,7 @@
 +.boschaftermarket.com
 +.boschautoparts.com
 +.botnadzor.org
++.botvip.cn
 +.bradyid.com
 +.brain.fm
 +.brave.com
@@ -256,7 +265,6 @@
 +.cdn.web-platform.io
 +.cdnbunny.org
 +.cdninstagram.com
-+.cdnjs.com
 +.cdromance.org
 +.cdw.com
 +.censortracker.org
@@ -264,8 +272,6 @@
 +.certificate-transparency.org
 +.certifytheweb.com
 +.cesium.com
-+.cf-ipfs.com
-+.cfargotunnel.com
 +.challenges.cloudflare.com
 +.chameleon.io
 +.chaos.com
@@ -273,7 +279,9 @@
 +.chat.openai.com
 +.chat.openai.com.cdn.cloudflare.net
 +.chatfuel.com
++.chatglm.cn
 +.chatgpt.com
++.chatgpt.livekit.cloud
 +.chaturbate.com
 +.checkout.buckaroo.nl
 +.cherta.media
@@ -282,6 +290,7 @@
 +.chromeexperiments.com
 +.chromestatus.com
 +.chromium.org
++.chutes.ai
 +.cici.com
 +.cisco.com
 +.cisecurity.org
@@ -292,24 +301,18 @@
 +.clashroyaleapp.com
 +.clashx.org
 +.claude.ai
++.claudeusercontent.com
 +.clevelandclinic.org
 +.clickup-attachments.com
 +.clickup-au.com
 +.clickup.com
 +.client-api.arkoselabs.com
 +.client-teamviewer-com.trafficmanager.net
-+.clients6.google.com
 +.clip.opus.pro
++.clipdrop.co
 +.cloud.mongodb.com
 +.cloudflare-dns.com
-+.cloudflare-eth.com
-+.cloudflare-ipfs.com
 +.cloudflare.com
-+.cloudflare.net
-+.cloudflareaccess.com
-+.cloudflareclient.com
-+.cloudflareinsights.com
-+.cloudflarestatus.com
 +.cloudfront.net
 +.cloudtorrents.com
 +.cmems-du.eu
@@ -320,6 +323,8 @@
 +.code.gist.build
 +.codebrowser.dev
 +.codeium.com
++.coderabbit.ai
++.coderabbit.gallery.vsassets.io
 +.codox.io
 +.cohere.com
 +.coingate.com
@@ -352,7 +357,13 @@
 +.crunchyroll.com
 +.csskor.ill.in.ua
 +.cub.red
++.cueme-api.quark.cn
++.cueme.cn
 +.currenttime.tv
++.cursor-cdn.com
++.cursor.com
++.cursor.sh
++.cursorapi.com
 +.cursorinfo.co.il
 +.cvedetails.com
 +.cyberghostvpn.com
@@ -376,6 +387,7 @@
 +.deepl.com
 +.deepmind.com
 +.deepmind.google
++.deepseek.com
 +.deepsource.com
 +.deepsource.io
 +.deepstatemap.live
@@ -397,6 +409,7 @@
 +.dice.com
 +.dickssportinggoods.com
 +.diffblue.com
++.dify.ai
 +.digash.live
 +.digikey.com
 +.digitalcontent.sky
@@ -438,6 +451,7 @@
 +.dorama.live
 +.doramalive.ru
 +.doramy.club
++.doubao.com
 +.doubleclick.net
 +.dovod.online
 +.download.jetbrains.com
@@ -459,6 +473,7 @@
 +.e-hentai.org
 +.e1v-h.phncdn.com
 +.e621.net
++.easydmarc.com
 +.easyjet.com
 +.echofm.online
 +.edge.microsoft.com
@@ -580,6 +595,7 @@
 +.gamesrepack.com
 +.gamestop.com
 +.gaming.amazon.com
++.gateway.ai.cloudflare.com
 +.gateway.discord.gg
 +.gateway.pinata.cloud
 +.geekyfuroshiki.com
@@ -665,6 +681,7 @@
 +.habr.com
 +.hackernoon.com
 +.hackmd.io
++.hailuoai.com
 +.halooglasi.com
 +.hashicorp.com
 +.hashkey.com
@@ -686,6 +703,7 @@
 +.hetzner.com
 +.hex-rays.com
 +.heygen.com
++.hf.co
 +.hollisterco.com
 +.holod.global.ssl.fastly.net
 +.holod.media
@@ -695,6 +713,7 @@
 +.honeywell.com
 +.hootsuite-privacy.my.onetrust.com
 +.hootsuite.com
++.host.livekit.cloud
 +.hostgator.com
 +.hostinger.com
 +.hotels.com
@@ -710,6 +729,7 @@
 +.huggingface.co
 +.humblebundle.com
 +.hume.ai
++.hunyuan.tencent.com
 +.hybrid-analysis.com
 +.hyperhost.ua
 +.hyundainews.com
@@ -734,7 +754,6 @@
 +.ilook.tv
 +.image.tmdb.org
 +.imagecache365.com
-+.imagedelivery.net
 +.images.discordapp.net
 +.imgur.com
 +.important-stories.com
@@ -779,6 +798,7 @@
 +.itsmycity.ru
 +.jabra.com
 +.jamf.com
++.jasper.ai
 +.jetbrains.ai
 +.jetbrains.com
 +.jetbrains.space
@@ -850,6 +870,7 @@
 +.lib.rus.ec
 +.libgen.li
 +.libgen.rs
++.liblib.art
 +.licdn.com
 +.lidarr.audio
 +.lifehacker.com
@@ -895,6 +916,7 @@
 +.mailo.com
 +.make.com
 +.makersuite.google.com
++.malw.link
 +.malwarebytes.com
 +.malwarebytes.org
 +.mangadex.org
@@ -904,6 +926,7 @@
 +.manyvids.com
 +.marketo.com
 +.marketplace.atlassian.com
++.marscode.cn
 +.marvelsnap.com
 +.mashable.com
 +.master.qt.io
@@ -944,7 +967,9 @@
 +.middlewareinventory.com
 +.mignews.com
 +.militarnyi.com
++.minimaxi.com
 +.miracleptr.wordpress.com
++.mistral.ai
 +.mixcloud.com
 +.mixpanel.com
 +.mobile.events.data.microsoft.com
@@ -955,6 +980,7 @@
 +.monotype.com
 +.monotypefonts.com
 +.monster.ie
++.moonshot.cn
 +.more.fm
 +.moscowtimes.ru
 +.mouser.com
@@ -977,9 +1003,12 @@
 +.myqrcode.com
 +.myrotvorets.center
 +.myworld-portal.leica-geosystems.com
++.n.cn
++.namiso.com
 +.nasvsehtoshnit.ru
 +.navalny.com
 +.nba.com
++.ndi.tv
 +.neformat.com.ua
 +.nekoray.org
 +.neo4j.com
@@ -1020,7 +1049,7 @@
 +.nordvpn.com
 +.norton.com
 +.notebooklm.google
-+.notebooklm.google.com
++.notebooklm.google.com 
 +.notepad-plus-plus.org
 +.notion-emojis.s3-us-west-2.amazonaws.com
 +.notion-static.com
@@ -1032,6 +1061,7 @@
 +.novaya.no
 +.novayagazeta.eu
 +.novayagazeta.ru
++.nsf.gov
 +.ntc.party
 +.ntp.msn.com
 +.nvidia.com
@@ -1063,10 +1093,12 @@
 +.open.spotify.com
 +.openai-api.arkoselabs.com
 +.openai.com
++.openai.com.cdn.cloudflare.net
 +.openaiapi-site.azureedge.net
 +.openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
 +.openaicom.imgix.net
 +.openaicomproductionae4b.blob.core.windows.net
++.openart.ai
 +.openculture.com
 +.openh264.org
 +.openmedia.io
@@ -1119,6 +1151,8 @@
 +.pepperl-fuchs.com
 +.perforce.com
 +.periscope.tv
++.perplexity.ai
++.perplexity.com
 +.peter-tanner.com
 +.pexels.com
 +.philscomputerlab.com
@@ -1129,6 +1163,7 @@
 +.photonengine.com
 +.php.su
 +.piccy.info
++.picoxr.com
 +.pimeyes.com
 +.pimpletv.ru
 +.pingdom.com
@@ -1163,6 +1198,8 @@
 +.portal.lviv.ua
 +.posle.media
 +.postimees.ee
++.pplx-res.cloudinary.com
++.pplx.ai
 +.pravda.com
 +.pravda.com.ua
 +.premierleague.com
@@ -1189,6 +1226,7 @@
 +.pump.fun
 +.qaweb.dev
 +.qcad.org
++.qianwen.aliyun.com
 +.qobuz.com
 +.qt.io
 +.qualcomm.com
@@ -1196,6 +1234,9 @@
 +.quiz.directory
 +.quora.com
 +.quora.com.cdn.cloudflare.net
++.qwant.com
++.qwen.ai
++.qwenlm.ai
 +.r4.err.ee
 +.radarr.servarr.com
 +.radarr.video
@@ -1249,6 +1290,7 @@
 +.riperam.org
 +.riseup.net
 +.roar-review.com
++.robinfrontend-pa.googleapis.com
 +.root-nation.com
 +.roskomsvoboda.org
 +.rpm.grafana.com
@@ -1275,6 +1317,8 @@
 +.rutracker.org
 +.rutracker.ru
 +.rutracker.wiki
++.rwkv.cn
++.rwkv.com
 +.s3-1.amazonaws.com
 +.sakhalin.info
 +.sakharovfoundation.org
@@ -1341,6 +1385,7 @@
 +.serif.com
 +.serpstat.com
 +.servarr.com
++.servd-anthropic-website.b-cdn.net
 +.serverkast.com
 +.setapp.com
 +.severreal.org
@@ -1519,6 +1564,7 @@
 +.threadsdashboard.com
 +.threema.ch
 +.ti.com
++.tiangong.cn
 +.tidal.com
 +.tik-tokapi.com
 +.tiktok.com
@@ -1541,6 +1587,8 @@
 +.todoist.com
 +.tokenized.play.google.com
 +.tommy.com
++.tongyi.aliyun.com
++.tongyi.com
 +.toolbox.app
 +.tools.cisco.com
 +.torproject.org
@@ -1557,12 +1605,12 @@
 +.trionworlds.com
 +.trueblackmetalradio.com
 +.truthsocial.com
-+.trycloudflare.com
 +.tsmc.com
 +.ttvnw.net
 +.ttwstatic.com
 +.tunnelbear.com
 +.turbobit.net
++.turn.livekit.cloud
 +.tuta.com
 +.tuta.io
 +.tutanota.com
@@ -1635,7 +1683,6 @@
 +.viber.com
 +.vice.com
 +.video.twimg.com
-+.videodelivery.net
 +.vine.co
 +.vipdrive.net
 +.viperatech.com
@@ -1656,9 +1703,11 @@
 +.vpshostingservice.co
 +.vrv.co
 +.vyos.io
++.vyos.net
 +.w.atwiki.jp
 +.wa.me
 +.wakanim.tv
++.wall.alphacoders.com
 +.walletconnect.com
 +.walmart.com
 +.watchguard.com
@@ -1669,6 +1718,7 @@
 +.wdfiles.com
 +.we.tl
 +.weather.com
++.webchannel-alkalimakersuite-pa.clients6.google.com
 +.webex.com
 +.weblance.com.ua
 +.webmproject.org
@@ -1706,7 +1756,6 @@
 +.wk.cz
 +.wonderclub.com
 +.wonderzine.com
-+.workers.dev
 +.wpengine.com
 +.ws.clickup.com
 +.wunderground.com
@@ -1752,6 +1801,8 @@
 +.xhamster.com
 +.xhamsterlive.com
 +.xhcdn.com
++.xinghuo.xfyun.cn
++.xingyeai.com
 +.xmg.gg
 +.xmind.com
 +.xn--ngstr-lra8j.com
@@ -1768,6 +1819,7 @@
 +.yande.re
 +.yeggi.com
 +.yithemes.com
++.yiyan.baidu.com
 +.yle.fi
 +.yourdictionary.com
 +.youtrack.cloud
@@ -1796,6 +1848,7 @@
 +.zetalliance.org
 +.zetflix.online
 +.zf.com
++.zhipuai.cn
 +.znanija.com
 +.zohomail.com
 +.zona.media
