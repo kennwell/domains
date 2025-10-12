@@ -405,6 +405,7 @@
 +.devexpress.com
 +.deviantart.com
 +.devops.com
++.diabrowser.com
 +.dialogflow.com
 +.dice.com
 +.dickssportinggoods.com
