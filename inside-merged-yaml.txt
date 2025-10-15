@@ -620,7 +620,6 @@
 +.getsafeonline.org
 +.gfn.am
 +.ggpht.com
-+.ggsel.net
 +.ghidra-sre.org
 +.ghostrc.game.idtech.services
 +.giphy.com
