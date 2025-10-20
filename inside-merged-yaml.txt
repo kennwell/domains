@@ -263,6 +263,7 @@
 +.cdn.oaistatic.com
 +.cdn.segment.com
 +.cdn.web-platform.io
++.cdn2site.com
 +.cdnbunny.org
 +.cdninstagram.com
 +.cdromance.org

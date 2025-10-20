@@ -263,6 +263,7 @@ nftset=/cdn.jsdelivr.net/4#inet#fw4#vpn_domains
 nftset=/cdn.oaistatic.com/4#inet#fw4#vpn_domains
 nftset=/cdn.segment.com/4#inet#fw4#vpn_domains
 nftset=/cdn.web-platform.io/4#inet#fw4#vpn_domains
+nftset=/cdn2site.com/4#inet#fw4#vpn_domains
 nftset=/cdnbunny.org/4#inet#fw4#vpn_domains
 nftset=/cdninstagram.com/4#inet#fw4#vpn_domains
 nftset=/cdromance.org/4#inet#fw4#vpn_domains
