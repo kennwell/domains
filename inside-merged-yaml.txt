@@ -1060,6 +1060,7 @@
 +.notion.new
 +.notion.site
 +.notion.so
++.notionusercontent.com
 +.novaline.fm
 +.novaya.no
 +.novayagazeta.eu
@@ -1488,6 +1489,8 @@
 +.stulchik.net
 +.suggestqueries.google.com
 +.summerana.com
++.suno.ai
++.suno.com
 +.supercell.com
 +.supersliv.biz
 +.support.cambiumnetworks.com
