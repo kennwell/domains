@@ -140,6 +140,7 @@ apt.releases.hashicorp.com
 aqicn.org
 arbat.media
 arc.intel.com
+arc.net
 archive.ph
 archiveofourown.org
 arm.com
@@ -268,6 +269,7 @@ cdnbunny.org
 cdninstagram.com
 cdromance.org
 cdw.com
+censor.net
 censortracker.org
 census.gov
 certificate-transparency.org
@@ -291,6 +293,7 @@ chrome.com
 chromeexperiments.com
 chromestatus.com
 chromium.org
+chub.ai
 chutes.ai
 cici.com
 cisco.com
@@ -331,6 +334,8 @@ cohere.com
 coingate.com
 coinpayments.net
 coinsbee.com
+coldfilm.city
+coldfilm.ink
 coldfilm.xyz
 colta.ru
 comments.app
@@ -354,6 +359,7 @@ cpu-monkey.com
 creativelab5.com
 credly.com
 crowdstrike.com
+croxyproxy.com
 crunchbase.com
 crunchyroll.com
 csskor.ill.in.ua
@@ -374,6 +380,7 @@ czx.to
 d.docs.live.net
 daemon-tools.cc
 daily.co
+dailylviv.com
 danbooru.donmai.us
 darkproject.eu
 data-cdn.mbamupdates.com
@@ -468,6 +475,7 @@ dpidetector.org
 dreamhost.com
 dual-a-0001.a-msedge.net
 ducati.com
+dumka.media
 dw.com
 dyson.com
 dyson.nl
@@ -501,6 +509,7 @@ epg.one
 epicgames.com
 epidemz.net.co
 eporner.com
+espreso.tv
 etahub.com
 etsy.com
 eu-iot-prod.aws.tcljd.com
@@ -551,6 +560,7 @@ flibusta.net
 flipboard.com
 flir.com
 flir.eu
+flisland.net
 flourish.studio
 fls.guru
 fluke.com
@@ -581,6 +591,7 @@ freedomletters.org
 freeimages.com
 freemedia.io
 freemyip.com
+freeones.com
 fromblancwithlove.com
 fujitsu.com
 futurelearn.com
@@ -623,12 +634,15 @@ gfn.am
 ggpht.com
 ghidra-sre.org
 ghostrc.game.idtech.services
+gifyu.com
 giphy.com
 github.com
 githubcopilot.com
 githubusercontent.com
 gitlab.com
 gitlab.io
+glavred.info
+glavred.net
 gllto.glpals.com
 global.fncstatic.com
 global.platform.seconddinnertech.com
@@ -696,8 +710,13 @@ hd.zetfix.online
 hdkinoteatr.com
 hdrezka.ac
 hdrezka.ag
+hdrezka.app
 hdrezka.fm
 hdrezka.me
+hdrezka.tech
+hdrezka.tv
+hdrzk.org
+hdstudio.org
 healthline.com
 helm.releases.hashicorp.com
 hentai-foundry.com
@@ -706,6 +725,7 @@ hetzner.com
 hex-rays.com
 heygen.com
 hf.co
+hitomi.la
 hollisterco.com
 holod.global.ssl.fastly.net
 holod.media
@@ -719,6 +739,7 @@ host.livekit.cloud
 hostgator.com
 hostinger.com
 hotels.com
+housebrand.com
 hp.com
 hpe.com
 hpoobe.com
@@ -796,6 +817,8 @@ is.fi
 island-of-pleasure.site
 istories.media
 itasoftware.com
+itch.io
+itdog.info
 itninja.com
 itsmycity.ru
 jabra.com
@@ -834,6 +857,7 @@ kinogo.ec
 kinogo.la
 kinogo.uk
 kinokopilka.pro
+kinopub.me
 kinovod.net
 kinozal.guru
 kinozal.me
@@ -876,6 +900,7 @@ liblib.art
 licdn.com
 lidarr.audio
 lifehacker.com
+liga.net
 lightburnsoftware.com
 lightning.ai
 linear.app
@@ -898,6 +923,8 @@ lostfilm.download
 lostfilm.run
 lostfilm.today
 lostfilm.tv
+lostfilm.tw
+lostfilm.uno
 lostfilm.win
 lostfilmtv2.site
 lowes.com
@@ -925,6 +952,7 @@ mangadex.org
 mangahub.ru
 mangapark.net
 manus.im
+manybooks.net
 manyvids.com
 marketo.com
 marketplace.atlassian.com
@@ -947,6 +975,7 @@ medicalnewstoday.com
 medium.com
 meduza.io
 meest-shop.com
+mega.nz
 megapeer.ru
 megapeer.vip
 megogo.net
@@ -976,6 +1005,7 @@ mistral.ai
 mixcloud.com
 mixpanel.com
 mobile.events.data.microsoft.com
+modrinth.com
 moneypuck.com
 mongodb.com
 mongodb.net
@@ -997,6 +1027,7 @@ musical.ly
 musixmatch.com
 mw2.wiki
 my.atlassian.com
+myanimelist.net
 mydoramy.club
 myfonts.com
 myheritage.com
@@ -1065,9 +1096,11 @@ novaline.fm
 novaya.no
 novayagazeta.eu
 novayagazeta.ru
+novyny.live
 nsf.gov
 ntc.party
 ntp.msn.com
+nude-moon.org
 nvidia.com
 nxp.com
 nyaa.si
@@ -1076,6 +1109,7 @@ o33249.ingest.sentry.io
 oaistatic.com
 oaiusercontent.com
 oasis.app
+obozrevatel.com
 observeit.net
 oclc.org
 ocstore.com
@@ -1201,6 +1235,7 @@ pornolab.net
 portal.bgpmon.net
 portal.lviv.ua
 posle.media
+posthog.com
 postimees.ee
 pplx-res.cloudinary.com
 pplx.ai
@@ -1255,6 +1290,7 @@ rbc.ua
 reactflow.dev
 readdle.com
 readybot.io
+realbooru.com
 realist.online
 recaptcha.net
 recraft.ai
@@ -1279,12 +1315,17 @@ repo.mongodb.org
 republic.ru
 research.net
 resp.app
+restream.io
 returnyoutubedislikeapi.com
 reve.art
 reverb.com
 rezka-ua.in
 rezka.ag
+rezka.cc
+rezka.fi
+rezka.land
 rezka.my
+rezka.tv
 rezkify.com
 rezonans.media
 rf.dobrochan.net
@@ -1306,6 +1347,7 @@ ru.krymr.com
 rublacklist.net
 ruckuswireless.com
 rule34.art
+rule34.us
 rule34.xxx
 rus-media.org
 rus.delfi.ee
@@ -1466,6 +1508,7 @@ st.com
 st.kinovod.net
 stackpathdns.com
 stalker2.com
+startmail.com
 startpage.com
 static-ss.xvideos-cdn.com
 static.cdninstagram.com
@@ -1561,6 +1604,7 @@ theins.press
 theins.ru
 themoviedb.org
 thepiratebay.org
+theporndude.com
 thesassway.com
 thetruestory.news
 thinkpads.com
@@ -1580,6 +1624,7 @@ tiktokcdn.com
 tiktokd.net
 tiktokd.org
 tiktokv.com
+tiktokv.eu
 tiktokv.us
 tiktokw.us
 tiltbrush.com
@@ -1648,6 +1693,7 @@ ubnt.com
 ufile.io
 ui.ill.in.ua
 uizard.io
+ukdevilz.com
 ukr.net
 ukr.radio
 ukrtelcdn.net
@@ -1727,6 +1773,7 @@ weather.com
 webchannel-alkalimakersuite-pa.clients6.google.com
 webex.com
 weblance.com.ua
+webmd.com
 webmproject.org
 webnames.ca
 webrtc.org
@@ -1845,6 +1892,7 @@ yting.com
 yummyani.me
 zahav.ru
 zapier.com
+zaxid.net
 zbigz.com
 zedge.net
 zendesk.com
