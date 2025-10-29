@@ -1,37 +1,6 @@
 # v1
+# более не используется
+# туперь rule-direct.txt
 
 
-# сайты, которые открываются только внутри России
-
-+.rzd.ru
-+.rzd-bonus.ru
-+.pochta.ru
-+.russianpost.ru
-+.dzvr.ru
-
-# Other
-
-+.avtodor-tr.ru
-+.onelya.ru
-+.bitrix.info
-+.bkvet.ru
-+.ozon.ru
-+.ozone.ru
-+.ozonusercontent.com
-+.yadro.ru
-+.kinopoisk.ru
-+.lemanapro.ru
-+.leroymerlin.ru
-+.mosenergosbyt.ru
-+.mosoblgaz.ru
-+.mosobleirc.ru
-+.xn--90aijkdmaud0d.xn--p1ai
-
-+.pesc.ru
-+.showip.net
 +.ttk.ru
-
-+.tns-e.ru
-
-#+.yandex.ru
-#+.yandex.net
