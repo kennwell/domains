@@ -55,10 +55,12 @@
 +.ai.google.dev
 +.ai.zhaomi.cn
 +.airbrake.io
++.aircanada.com
 +.airtable.com
 +.airtableusercontent.com
 +.aisandbox-pa.googleapis.com
 +.aistudio.google.com
++.akc.org
 +.alberta.ca
 +.algolia.net
 +.alienwarearena.com
@@ -289,6 +291,7 @@
 +.checkout.buckaroo.nl
 +.cherta.media
 +.chess.com
++.chesscomfiles.com
 +.chrome.com
 +.chromeexperiments.com
 +.chromestatus.com
@@ -341,6 +344,7 @@
 +.comments.app
 +.community.cisco.com
 +.community.sophos.com
++.connect.ngrok-agent.com
 +.connectivitycheck.gstatic.com
 +.contabo.com
 +.contest.com
@@ -818,7 +822,6 @@
 +.istories.media
 +.itasoftware.com
 +.itch.io
-+.itdog.info
 +.itninja.com
 +.itsmycity.ru
 +.jabra.com
@@ -1046,6 +1049,7 @@
 +.neformat.com.ua
 +.nekoray.org
 +.neo4j.com
++.netacad.com
 +.netapp.com
 +.netflix.ca
 +.netflix.com
@@ -1143,6 +1147,7 @@
 +.openrouter.ai
 +.opensanctions.org
 +.opensea.io
++.opentrackr.org
 +.openwrt.wk.cz
 +.opposition-news.com
 +.optimizely.com
@@ -1455,6 +1460,7 @@
 +.simplix.info
 +.singlekey-id.com
 +.site.com
++.siteground.com
 +.skat.media
 +.sketchup.com
 +.skiff.com
@@ -1483,6 +1489,7 @@
 +.sobesednik.ru
 +.software.cisco.com
 +.solarwinds.com
++.sonara.ai
 +.sophos.com
 +.sora.com
 +.sotaproject.com
@@ -1651,6 +1658,7 @@
 +.trae.ai
 +.trailblazer.me
 +.trailhead.com
++.transferwise.com
 +.trellix.com
 +.tria.ge
 +.trionworlds.com
@@ -1671,6 +1679,9 @@
 +.tweetdeck.com
 +.twilio.com
 +.twimg.com
++.twin.me
++.twinlife-systems.com
++.twinme.com
 +.twirpx.com
 +.twitpic.com
 +.twitter.biz
@@ -1805,6 +1816,7 @@
 +.windguru.cz
 +.windows10spotlight.com
 +.windsurf.com
++.wise.com
 +.wixmp.com
 +.wk.cz
 +.wonderclub.com
