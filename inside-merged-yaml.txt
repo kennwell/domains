@@ -703,6 +703,7 @@
 +.hackmd.io
 +.hailuoai.com
 +.halooglasi.com
++.happycolorapp.com
 +.hashicorp.com
 +.hashkey.com
 +.haydaygame.com
