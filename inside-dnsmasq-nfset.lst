@@ -395,6 +395,7 @@ nftset=/databricks.com/4#inet#fw4#vpn_domains
 nftset=/datadoghq.com/4#inet#fw4#vpn_domains
 nftset=/dating.com/4#inet#fw4#vpn_domains
 nftset=/daz3d.com/4#inet#fw4#vpn_domains
+nftset=/debian.map.fastlydns.net/4#inet#fw4#vpn_domains
 nftset=/debug.com/4#inet#fw4#vpn_domains
 nftset=/decrypt.day/4#inet#fw4#vpn_domains
 nftset=/deepl.com/4#inet#fw4#vpn_domains

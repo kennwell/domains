@@ -395,6 +395,7 @@
 +.datadoghq.com
 +.dating.com
 +.daz3d.com
++.debian.map.fastlydns.net
 +.debug.com
 +.decrypt.day
 +.deepl.com
