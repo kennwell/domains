@@ -155,6 +155,8 @@
 +.att.com
 +.attachments.f95zone.to
 +.atwiki.jp
++.audio-ak-spotify-com.akamaized.net
++.audio4-ak-spotify-com.akamaized.net
 +.audiobookbay.lu
 +.augmentcode.com
 +.auth.grazie.ai
@@ -245,6 +247,7 @@
 +.builds.parsec.app
 +.buymeacoffee.com
 +.buysellvouchers.com
++.byspotify.com
 +.byteoversea.com
 +.cambiumnetworks.com
 +.canva-apps.com
@@ -261,6 +264,7 @@
 +.cats.com
 +.cbilling.eu
 +.cbilling.vip
++.cdn-spotify-experiments.conductrics.com
 +.cdn-telegram.org
 +.cdn.id.supercell.com
 +.cdn.jsdelivr.net
@@ -725,6 +729,8 @@
 +.hdrezka.tv
 +.hdrzk.org
 +.hdstudio.org
++.heads-ak-spotify-com.akamaized.net
++.heads4-ak-spotify-com.akamaized.net
 +.healthline.com
 +.helm.releases.hashicorp.com
 +.hentai-foundry.com
@@ -1267,6 +1273,7 @@
 +.provereno.media
 +.prowlarr.com
 +.proxy.individual.githubcopilot.com
++.pscdn.co
 +.pscp.tv
 +.psiphon.ca
 +.ptc.com
@@ -1391,6 +1398,7 @@
 +.saverudata.info
 +.saverudata.net
 +.sbom.sh
++.scdn.co
 +.schaeffler.com
 +.schenker-tech.de
 +.sci-hub.se
@@ -1510,7 +1518,20 @@
 +.split.io
 +.splunk.com
 +.splunkcloud.com
++.spoti.fi
++.spotify-everywhere.com
 +.spotify.com
++.spotify.com.edgesuite.net
++.spotify.design
++.spotify.link
++.spotify.map.fastly.net
++.spotify.map.fastlylb.net
++.spotifycdn.com
++.spotifycdn.net
++.spotifycharts.com
++.spotifycodes.com
++.spotifyforbrands.com
++.spotifyjobs.com
 +.spreadthesign.com
 +.sputnikipogrom.com
 +.squadbustersgame.com
@@ -1658,6 +1679,7 @@
 +.torrent.by
 +.torrenteditor.com
 +.torrentgalaxy.to
++.tospotify.com
 +.tr.anidub.com
 +.tracker.opentrackr.org
 +.trae.ai
