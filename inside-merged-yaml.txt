@@ -1013,6 +1013,7 @@
 +.mignews.com
 +.militarnyi.com
 +.minimaxi.com
++.mint.com
 +.miracleptr.wordpress.com
 +.mistral.ai
 +.mixcloud.com
@@ -1068,6 +1069,7 @@
 +.netflixtechblog.com
 +.netlify.com
 +.networksolutions.com
++.neuesbad.de
 +.newark.com
 +.news.google.com
 +.newsroom.porsche.com
@@ -1201,6 +1203,7 @@
 +.pcmag.com
 +.penguin.com
 +.penguinrandomhouse.com
++.pepephone.com
 +.pepperl-fuchs.com
 +.perforce.com
 +.periscope.tv
@@ -1692,6 +1695,7 @@
 +.trionworlds.com
 +.trueblackmetalradio.com
 +.truthsocial.com
++.tsheets.com
 +.tsmc.com
 +.ttwstatic.com
 +.tunnelbear.com
