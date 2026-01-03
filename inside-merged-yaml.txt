@@ -1646,6 +1646,7 @@
 +.teamviewer.com.cdn.cloudflare.net
 +.teamviewer.us
 +.techbargains.com
++.technobezz.com
 +.ted.com
 +.telega.one
 +.telegra.ph
