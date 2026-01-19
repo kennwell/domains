@@ -612,6 +612,7 @@
 +.foxtrot.com.ua
 +.fragment.com
 +.framer.com
++.freecodecamp.org
 +.freedomletters.org
 +.freeimages.com
 +.freemedia.io

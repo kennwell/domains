@@ -612,6 +612,7 @@ nftset=/foxnews.com/4#inet#fw4#vpn_domains
 nftset=/foxtrot.com.ua/4#inet#fw4#vpn_domains
 nftset=/fragment.com/4#inet#fw4#vpn_domains
 nftset=/framer.com/4#inet#fw4#vpn_domains
+nftset=/freecodecamp.org/4#inet#fw4#vpn_domains
 nftset=/freedomletters.org/4#inet#fw4#vpn_domains
 nftset=/freeimages.com/4#inet#fw4#vpn_domains
 nftset=/freemedia.io/4#inet#fw4#vpn_domains
