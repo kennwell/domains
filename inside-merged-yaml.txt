@@ -1274,6 +1274,7 @@
 +.placehold.co
 +.platform.activestate.com
 +.platform.twitter.com
++.plaud.ai
 +.play-fe.googleapis.com
 +.play-games.googleusercontent.com
 +.play-lh.googleusercontent.com
