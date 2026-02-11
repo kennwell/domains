@@ -961,6 +961,7 @@ nftset=/google-analytics-cn.com/4#inet#fw4#vpn_domains
 nftset=/google-analytics.com/4#inet#fw4#vpn_domains
 nftset=/google-ohttp-relay-safebrowsing.fastly-edge.com/4#inet#fw4#vpn_domains
 nftset=/google-syndication.com/4#inet#fw4#vpn_domains
+nftset=/google-test.mi/4#inet#fw4#vpn_domains
 nftset=/google.ad/4#inet#fw4#vpn_domains
 nftset=/google.ae/4#inet#fw4#vpn_domains
 nftset=/google.al/4#inet#fw4#vpn_domains
