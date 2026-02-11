@@ -141,152 +141,6 @@ vpnguild.org
 fromblancwithlove.com
 vpshostingservice.co
 
-################### ai
-hf.co
-huggingface.co
-whispertranscribe.com
-
-# gemini
-deepmind.com
-deepmind.google
-geller-pa.googleapis.com
-generativelanguage.googleapis.com
-proactivebackend-pa.googleapis.com
-robinfrontend-pa.googleapis.com
-ai.google.dev
-alkalicore-pa.clients6.google.com
-alkalimakersuite-pa.clients6.google.com
-webchannel-alkalimakersuite-pa.clients6.google.com
-generativeai.google
-makersuite.google.com
-aistudio.google.com
-bard.google.com
-gemini.google
-gemini.google.com
-notebooklm.google
-notebooklm.google.com 
-jules.google
-jules.google.com
-labs.google
-aisandbox-pa.googleapis.com
-
-# openai
-chatgpt.com
-chat.com
-oaistatic.com
-oaiusercontent.com
-openai.com
-sora.com
-openai.com.cdn.cloudflare.net
-openaiapi-site.azureedge.net
-openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
-openaicomproductionae4b.blob.core.windows.net
-production-openaicom-storage.azureedge.net
-o33249.ingest.sentry.io
-openaicom.imgix.net
-browser-intake-datadoghq.com
-chatgpt.livekit.cloud
-host.livekit.cloud
-turn.livekit.cloud
-
-# anthropic
-anthropic.com
-claude.ai
-claudeusercontent.com
-servd-anthropic-website.b-cdn.net
-
-# perplexity
-perplexity.ai
-perplexity.com
-pplx.ai
-pplx-res.cloudinary.com
-
-## meta
-meta.ai
-meta.com
-
-# grok
-grok.com
-x.ai
-ai.com
-
-# cursor
-cursor-cdn.com
-cursor.com
-cursor.sh
-cursorapi.com
-
-# another ai
-coderabbit.ai
-coderabbit.gallery.vsassets.io
-clipdrop.co
-jasper.ai
-chutes.ai
-copilot.microsoft.com
-dify.ai
-gateway.ai.cloudflare.com
-meta.ai
-mistral.ai
-openart.ai
-openrouter.ai
-
-################ cn ai
-deepseek.com
-# RWKV
-rwkv.cn
-rwkv.com
-
-# 通义千问
-tongyi.aliyun.com
-qianwen.aliyun.com
-qwen.ai
-qwenlm.ai
-tongyi.com
-
-# 文心一言
-yiyan.baidu.com
-
-# 天工AI
-tiangong.cn
-
-# 豆包
-doubao.com
-marscode.cn
-
-# 智谱清言
-bigmodel.cn
-chatglm.cn
-zhipuai.cn
-
-# 月之暗面
-moonshot.cn
-
-# 讯飞星火
-xinghuo.xfyun.cn
-
-# MiniMax
-hailuoai.com
-minimaxi.com
-xingyeai.com
-
-# 腾讯混元
-hunyuan.tencent.com
-
-# 百川智能
-baichuan-ai.com
-
-botvip.cn
-liblib.art
-
-# 夸克 CueMe
-cueme.cn
-cueme-api.quark.cn
-
-# 360 纳米AI搜索
-n.cn
-namiso.com
-ai.zhaomi.cn
-
 
 #airtable
 adroll.com
@@ -335,24 +189,6 @@ zendesk.com
 # 52.44.24.118
 
 
-# Cloudflare инфраструктура
-# cloudflare.com
-# cloudflare.net
-# cloudflareinsights.com
-# cloudflareaccess.com
-# cloudflareclient.com
-# cloudflare-dns.com
-# cloudflare-ipfs.com
-# cf-ipfs.com
-# cloudflare-eth.com
-# cfargotunnel.com
-# trycloudflare.com
-# workers.dev
-# pages.dev
-# videodelivery.net
-# imagedelivery.net
-# cloudflarestatus.com
-# cdnjs.com
 
 #hp
 hp.com
@@ -401,44 +237,112 @@ chameleon.io
 unpkg.com
 daily.co
 
-# ChatGPT
+# v2fly ai
+# !cn
+
+anthropic.com
+claude.ai
+claudeusercontent.com
+servd-anthropic-website.b-cdn.net
+cursor-cdn.com
+cursor.com
+cursor.sh
+cursorapi.com
+deepmind.com
+deepmind.google
+geller-pa.googleapis.com
+generativelanguage.googleapis.com
+proactivebackend-pa.googleapis.com
+robinfrontend-pa.googleapis.com
+ai.google.dev
+alkalicore-pa.clients6.google.com
+alkalimakersuite-pa.clients6.google.com
+webchannel-alkalimakersuite-pa.clients6.google.com
+generativeai.google
+makersuite.google.com
+aistudio.google.com
+bard.google.com
+gemini.google
+gemini.google.com
+notebooklm.google
+notebooklm.google.com
+jules.google
+jules.google.com
+labs.google
+aisandbox-pa.googleapis.com
+groq.com
+hf.co
+huggingface.co
 chatgpt.com
-api.statsig.com
-browser-intake-datadoghq.com
-chat.openai.com.cdn.cloudflare.net
-o33249.ingest.sentry.io
-openai-api.arkoselabs.com
+chat.com
+oaistatic.com
+oaiusercontent.com
+openai.com
+sora.com
+openai.com.cdn.cloudflare.net
+openaiapi-site.azureedge.net
 openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
 openaicomproductionae4b.blob.core.windows.net
 production-openaicom-storage.azureedge.net
-#DOMAIN,static.cloudflareinsights.com,PROXY
-openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+^chatgpt-async-webps-prod-\S+-\d+\.webpubsub\.azure\.com$
+o33249.ingest.sentry.io
 openaicom.imgix.net
-openaiapi-site.azureedge.net
-algolia.net
-auth0.com
-#DOMAIN-SUFFIX,cdn.cloudflare.net,PROXY
-challenges.cloudflare.com
-#chatgpt.livekit.cloud
-livekit.cloud
-client-api.arkoselabs.com
-events.statsigapi.net
-featuregates.org
-#host.livekit.cloud
-identrust.com
-intercomcdn.com
-launchdarkly.com
-oaistatic.com
-oaiusercontent.com
-observeit.net
-openai.com
-openaiapi-site.azureedge.net
-openaicom.imgix.net
+browser-intake-datadoghq.com
+chatgpt.livekit.cloud
+host.livekit.cloud
+turn.livekit.cloud
+perplexity.ai
+perplexity.com
+pplx.ai
+pplx-res.cloudinary.com
 poe.com
-segment.io
-sentry.io
-stripe.com
-#turn.livekit.cloud
+poecdn.net
+grok.com
+x.ai
+coderabbit.ai
+coderabbit.gallery.vsassets.io
+clipdrop.co
+jasper.ai
+chutes.ai
+copilot.microsoft.com
+dify.ai
+gateway.ai.cloudflare.com
+meta.ai
+mistral.ai
+openart.ai
+openrouter.ai
+
+# cn
+deepseek.com
+rwkv.cn
+rwkv.com
+tongyi.aliyun.com
+qianwen.aliyun.com
+qwen.ai
+qwenlm.ai
+tongyi.com
+yiyan.baidu.com
+tiangong.cn
+doubao.com
+marscode.cn
+bigmodel.cn
+chatglm.cn
+zhipuai.cn
+moonshot.cn
+xinghuo.xfyun.cn
+hailuoai.com
+minimaxi.com
+xingyeai.com
+hunyuan.tencent.com
+baichuan-ai.com
+botvip.cn
+liblib.art
+cueme.cn
+cueme-api.quark.cn
+n.cn
+namiso.com
+ai.zhaomi.cn
+
 
 # v2ly google
 google-test.mi
