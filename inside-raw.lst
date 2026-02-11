@@ -113,7 +113,6 @@ coreldraw.app
 unsplash.com
 corel.com
 corel.net
-coreldraw.app
 coreldraw.com
 corelstore.com
 # 195.214.234.0/24
@@ -142,11 +141,14 @@ fromblancwithlove.com
 vpshostingservice.co
 
 
-#airtable
-adroll.com
+#airtable — core
 airtable.com
 airtableusercontent.com
-amazonaws.com
+airtableblocks.com
+airtable.io
+
+#airtable — third-party (original)
+adroll.com
 amplitude.com
 anthropic.com
 api.segment.io
@@ -177,6 +179,19 @@ stripe.com
 twilio.com
 zapier.com
 zendesk.com
+
+filestackapi.com
+filestackcontent.com
+typeform.com
+
+
+#airtable — new (added from CT logs / research)
+segment.io
+intercom.io
+onetrust.com
+cookielaw.org
+
+#airtable — static IPs
 # 3.78.197.245
 # 3.125.75.166
 # 3.215.151.50
@@ -187,6 +202,28 @@ zendesk.com
 # 44.232.41.45
 # 52.29.196.195
 # 52.44.24.118
+
+#airtable — possibly unnecessary (too broad, may over-route traffic)
+amazonaws.com
+cloudflare.com
+cloudfront.net
+google.com
+googleapis.com
+google-analytics.com
+stripe.com
+slack.com
+anthropic.com
+openai.com
+salesforce.com
+atlassian.net
+ibm.com
+mailchimp.com
+twilio.com
+zapier.com
+zendesk.com
+make.com
+brightdata.com
+
 
 
 
@@ -212,9 +249,6 @@ owl.li
 ht.ly
 htl.li
 
-# threads
-threads.com
-threads.net
 giphy.com
 
 # my clickup
@@ -240,7 +274,7 @@ daily.co
 # v2fly ai
 # !cn
 
-anthropic.com
+## anthropic.com
 claude.ai
 claudeusercontent.com
 servd-anthropic-website.b-cdn.net
@@ -277,7 +311,7 @@ chatgpt.com
 chat.com
 oaistatic.com
 oaiusercontent.com
-openai.com
+## openai.com
 sora.com
 openai.com.cdn.cloudflare.net
 openaiapi-site.azureedge.net
