@@ -22,6 +22,7 @@
 +.8chan.moe
 +.9tv.co.il
 ^adservice\.google\.([a-z]{2}|com?)(\.[a-z]{2})?$
+^chatgpt-async-webps-prod-\S+-\d+\.webpubsub\.azure\.com$
 ^r+[0-9]+(---|\.)sn-(2x3|ni5|j5o)\w{5}\.googlevideo\.com$
 ^r+[0-9]+(---|\.)sn-(2x3|ni5|j5o)\w{5}\.xn--ngstr-lra8j\.com$
 +.a-vrv.akamaized.net
@@ -81,12 +82,13 @@
 +.airbrake.io
 +.aircanada.com
 +.airtable.com
++.airtable.io
++.airtableblocks.com
 +.airtableusercontent.com
 +.aisandbox-pa.googleapis.com
 +.aistudio.google.com
 +.akc.org
 +.alberta.ca
-+.algolia.net
 +.alienwarearena.com
 +.alkalicore-pa.clients6.google.com
 +.alkalimakersuite-pa.clients6.google.com
@@ -159,7 +161,6 @@
 +.api.radarr.video
 +.api.segment.io
 +.api.service-kp.com
-+.api.statsig.com
 +.api.theins.info
 +.api.themoviedb.org
 +.api.twitter.com
@@ -211,7 +212,6 @@
 +.augmentcode.com
 +.auth.grazie.ai
 +.auth.openai.com
-+.auth0.com
 +.auth0.openai.com
 +.autodesk.com
 +.autodesk.net
@@ -427,7 +427,6 @@
 +.certificate-transparency.org
 +.certifytheweb.com
 +.cesium.com
-+.challenges.cloudflare.com
 +.chameleon.io
 +.chaos.com
 +.charlestonroadregistry.com
@@ -473,7 +472,6 @@
 +.clickup-attachments.com
 +.clickup-au.com
 +.clickup.com
-+.client-api.arkoselabs.com
 +.client-teamviewer-com.trafficmanager.net
 +.clients1.google.com
 +.clientservices.googleapis.com
@@ -523,6 +521,7 @@
 +.content.googleadapis.com
 +.contest.com
 +.cookiechoices.org
++.cookielaw.org
 +.coomer.su
 +.coova.com
 +.coova.net
@@ -736,7 +735,6 @@
 +.euroradio.fm
 +.eutrp.eu
 +.event.on24.com
-+.events.statsigapi.net
 +.everand.com
 +.exchanger.bits.media
 +.exchangeratesapi.io
@@ -762,7 +760,6 @@
 +.fb.com
 +.fbcdn.net
 +.fbsbx.com
-+.featuregates.org
 +.feedburner.com
 +.fex.net
 +.fflick.com
@@ -770,6 +767,8 @@
 +.fiercepc.co.uk
 +.filebin.net
 +.files.oaiusercontent.com
++.filestackapi.com
++.filestackcontent.com
 +.filmitorrent.net
 +.filmix.ac
 +.filmix.biz
@@ -1343,7 +1342,6 @@
 +.ichef.bbci.co.uk
 +.id.cisco.com
 +.idelreal.org
-+.identrust.com
 +.iditelesombase.org
 +.idtech.services
 +.idx.dev
@@ -1384,7 +1382,6 @@
 +.intellipaat.com
 +.interactivebrokers.co.uk
 +.intercom.io
-+.intercomcdn.com
 +.interfax.com.ua
 +.internalfb.com
 +.intuit.com
@@ -1478,7 +1475,6 @@
 +.langdock.com
 +.lantern.io
 +.lanternal.com
-+.launchdarkly.com
 +.ldoceonline.com
 +.le-production.tv
 +.leafletjs.com
@@ -1507,7 +1503,6 @@
 +.linuxiac.com
 +.lipstickalley.com
 +.liquidsky.com
-+.livekit.cloud
 +.livetv.sx
 +.liveuamap.com
 +.llamameta.net
@@ -1713,7 +1708,6 @@
 +.norton.com
 +.notebooklm.google
 +.notebooklm.google.com
-+.notebooklm.google.com 
 +.notepad-plus-plus.org
 +.notion-emojis.s3-us-west-2.amazonaws.com
 +.notion-static.com
@@ -1742,7 +1736,6 @@
 +.oasis.app
 +.oauthz.com
 +.obozrevatel.com
-+.observeit.net
 +.oclc.org
 +.ocsp.pki.goog
 +.ocstore.com
@@ -1761,6 +1754,7 @@
 +.on2.com
 +.onefifteen.net
 +.onefifteen.org
++.onetrust.com
 +.oneworldmanystories.com
 +.onfastspring.com
 +.onlineradiobox.com
@@ -1768,7 +1762,6 @@
 +.onlinesim.ru
 +.onshape.com
 +.open.spotify.com
-+.openai-api.arkoselabs.com
 +.openai.com
 +.openai.com.cdn.cloudflare.net
 +.openaiapi-site.azureedge.net
@@ -1896,6 +1889,7 @@
 +.pluralsight.com
 +.pny.com
 +.poe.com
++.poecdn.net
 +.polit.ru
 +.politico.eu
 +.politiken.dk
@@ -2558,6 +2552,7 @@
 +.tx.me
 +.txcloud.net
 +.txvia.com
++.typeform.com
 +.typing.com
 +.uaudio.com
 +.uberproxy-debug4.corp.google.com
@@ -2700,7 +2695,6 @@
 +.whatsapp.tv
 +.whatsappbrand.com
 +.wheather.com
-+.whispertranscribe.com
 +.wide-youtube.l.google.com
 +.widevine.com
 +.widgetapp.stream
