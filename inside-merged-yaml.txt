@@ -586,6 +586,7 @@
 +.daz3d.com
 +.dclk
 +.debian.map.fastlydns.net
++.debian.org
 +.debug.com
 +.debugproject.com
 +.deckbrew.xyz

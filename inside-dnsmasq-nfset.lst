@@ -586,6 +586,7 @@ nftset=/dating.com/4#inet#fw4#vpn_domains
 nftset=/daz3d.com/4#inet#fw4#vpn_domains
 nftset=/dclk/4#inet#fw4#vpn_domains
 nftset=/debian.map.fastlydns.net/4#inet#fw4#vpn_domains
+nftset=/debian.org/4#inet#fw4#vpn_domains
 nftset=/debug.com/4#inet#fw4#vpn_domains
 nftset=/debugproject.com/4#inet#fw4#vpn_domains
 nftset=/deckbrew.xyz/4#inet#fw4#vpn_domains
