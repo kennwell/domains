@@ -1780,6 +1780,7 @@ nftset=/opensourceinsights.dev/4#inet#fw4#vpn_domains
 nftset=/openthread.io/4#inet#fw4#vpn_domains
 nftset=/opentrackr.org/4#inet#fw4#vpn_domains
 nftset=/openweave.io/4#inet#fw4#vpn_domains
+nftset=/openwrt.org/4#inet#fw4#vpn_domains
 nftset=/openwrt.wk.cz/4#inet#fw4#vpn_domains
 nftset=/opposition-news.com/4#inet#fw4#vpn_domains
 nftset=/optimizely.com/4#inet#fw4#vpn_domains
