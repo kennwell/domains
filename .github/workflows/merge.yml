@@ -15,7 +15,7 @@ jobs:
     steps:
       - name: Checkout repo
         # Checks out the repository to the runner so the workflow can access the files.
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Fetch external list and store
         # Downloads an external domain list and saves it locally, or creates a placeholder if the fetch fails.
