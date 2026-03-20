@@ -55,6 +55,10 @@ jobs:
                                      {print}
           ' inside-raw-merged.lst > inside-merged-yaml.txt
 
+      - name: Build inside-merged-ru-yaml.txt
+        # Extract specific RU/SU domains into a separate file.
+        run: |
+          grep -E '\.(moscow|ru|su|tatar|xn--80adxhks|xn--80asehdb|xn--80aswg|xn--c1avg|xn--d1acj3b|xn--p1acf|xn--p1ai)$' inside-merged-yaml.txt > inside-merged-ru-yaml.txt || true
 
       - name: Commit and push if changed
         # Configures git, commits any changes to the domain list files, and pushes to the main branch.
@@ -63,7 +67,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           # Stage the updated domain list files.
-          git add inside-raw-itdog.lst inside-raw-merged.lst inside-dnsmasq-nfset.lst inside-merged-yaml.txt
+          git add inside-raw-itdog.lst inside-raw-merged.lst inside-dnsmasq-nfset.lst inside-merged-yaml.txt inside-merged-ru-yaml.txt
           # Commit only if there are staged changes.
           git diff --cached --quiet || git commit -m "Update domain lists"
           # Push commits to the main branch using the provided GitHub token.
