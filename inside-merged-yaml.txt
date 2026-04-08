@@ -54,6 +54,7 @@
 +.admob.com
 +.adobe.com
 +.adobe.io
++.adobe.net
 +.adroll.com
 +.ads-twitter.com
 +.ads.youtube.com
@@ -146,6 +147,7 @@
 +.ansible.com
 +.ansys.com
 +.anthropic.com
++.anthropic.qualtrics.com
 +.antizapret.prostovpn.org
 +.any.do
 +.anythingllm.com
@@ -222,8 +224,10 @@
 +.avira.com
 +.azathabar.com
 +.azattyq.org
++.babepedia.com
 +.babook.org
 +.bacch.com
++.backend-v2.crixet.com
 +.baginya.org
 +.baichuan-ai.com
 +.baikal-journal.ru
@@ -427,8 +431,10 @@
 +.certificate-transparency.org
 +.certifytheweb.com
 +.cesium.com
++.chainreactioncycles.com
 +.chameleon.io
 +.chaos.com
++.charhub.io
 +.charlestonroadregistry.com
 +.chat.com
 +.chat.openai.com
@@ -464,6 +470,7 @@
 +.clashroyaleapp.com
 +.clashx.org
 +.claude.ai
++.claude.com
 +.claudeusercontent.com
 +.clevelandclinic.org
 +.clickserve.cc-dt.com
@@ -576,6 +583,8 @@
 +.dartpad.dev
 +.dartsearch-cn.net
 +.dartsearch.net
++.dashboard.algolia.com
++.dashboard.gitguardian.com
 +.data-cdn.mbamupdates.com
 +.data.cline.bot
 +.database.clamav.net
@@ -684,11 +693,11 @@
 +.download.tensorflow.google.com
 +.download.wetransfer.com
 +.download3.omnissa.com
++.downloads.intercomcdn.com
 +.doxa.team
 +.doxajournal.ru
 +.dpidetector.org
 +.dreamhost.com
-+.dreamina.capcut.com
 +.dual-a-0001.a-msedge.net
 +.dub.sh
 +.ducati.com
@@ -751,6 +760,7 @@
 +.familysearch.org
 +.fanatical.com
 +.fansly.com
++.fapello.com
 +.fast-torrent.club
 +.fast.com
 +.fastflux.ai
@@ -799,6 +809,7 @@
 +.firefly-ps.adobe.io
 +.fitbit.com
 +.fitgirl-repacks.site
++.fivetran.com
 +.flashscore.com
 +.flexpool.io
 +.flibusta.is
@@ -939,6 +950,7 @@
 +.godaddy.com
 +.godoc.org
 +.gofile.io
++.gofund.me
 +.gofundme.com
 +.gogle.com
 +.gogole.com
@@ -948,6 +960,7 @@
 +.golosameriki.com
 +.gonglchuangl.net
 +.gongyichuangyi.net
++.gonift.com
 +.gonitro.com
 +.goo
 +.goo.gl
@@ -1234,6 +1247,7 @@
 +.grizzlysms.com
 +.grohe.us
 +.grok.com
++.grok.x.com
 +.groq.com
 +.groupon.com
 +.grouponcdn.com
@@ -1324,6 +1338,7 @@
 +.htl.li
 +.htmhell.dev
 +.html5rocks.com
++.httptoolkit.com
 +.huggingface.co
 +.humblebundle.com
 +.hume.ai
@@ -1345,6 +1360,7 @@
 +.id.cisco.com
 +.idelreal.org
 +.iditelesombase.org
++.idolcomplex.com
 +.idtech.services
 +.idx.dev
 +.iedb.org
@@ -1580,6 +1596,7 @@
 +.meduza.io
 +.meest-shop.com
 +.meet.new
++.meetup.com
 +.mega.nz
 +.megapeer.ru
 +.megapeer.vip
@@ -1638,6 +1655,7 @@
 +.mtalk.google.com
 +.mtalk4.google.com
 +.mullvad.net
++.multisim.com
 +.multporn.net
 +.muscdn.com
 +.musical.ly
@@ -1698,6 +1716,7 @@
 +.nhentai.com
 +.nhentai.net
 +.nhl.com
++.ni.com
 +.nih.gov
 +.nike.com
 +.nippon.com
@@ -1848,6 +1867,7 @@
 +.perplexity.com
 +.peter-tanner.com
 +.pexels.com
++.philiascans.org
 +.philscomputerlab.com
 +.phishtank.com
 +.phncdn.com
@@ -1958,6 +1978,8 @@
 +.qianwen.aliyun.com
 +.qiao-cn.com
 +.qobuz.com
++.qodana.cloud
++.qoder.com
 +.qpx.googleflights.net
 +.qt.io
 +.qualcomm.com
@@ -2095,6 +2117,9 @@
 +.salesforceiq.com
 +.salesforceliveagent.com
 +.samsclub.com
++.sankakuapi.com
++.sankakucomplex.com
++.sankakustatic.com
 +.sap.com
 +.saveeditonline.com
 +.saverudata.info
@@ -2107,6 +2132,7 @@
 +.schaeffler.com
 +.schemer.com
 +.schenker-tech.de
++.schneider-electric.com
 +.scholar.google.ae
 +.scholar.google.at
 +.scholar.google.be
@@ -2207,6 +2233,7 @@
 +.scryde8.net
 +.scryde9.net
 +.sdxcentral.com
++.se.com
 +.search.clickup-eu.com
 +.search.clickup-prod.com
 +.search.clickup-sg.com
@@ -2245,6 +2272,7 @@
 +.sheerid.com
 +.sheets.new
 +.shikimori.me
++.shikimori.one
 +.shiksha.com
 +.shinyhardware.co.uk
 +.shiza-project.com
@@ -2361,6 +2389,7 @@
 +.strana.news
 +.strana.today
 +.strava.com
++.streamable.com
 +.streaming-uberproxy-rotation.corp.google.com
 +.streaming-uberproxy.corp.google.com
 +.stripe.com
@@ -2614,6 +2643,7 @@
 +.veeam.com
 +.velocidrone.com
 +.velostrata.com
++.verificationacademy.com
 +.verily.com
 +.verilylifesciences.com
 +.verilystudyhub.com
@@ -2663,6 +2693,7 @@
 +.watermarkremover.io
 +.waymo.com
 +.waze.com
++.wbagora.com
 +.wbgames.com
 +.wdfiles.com
 +.we.tl
@@ -2796,6 +2827,7 @@
 +.xnxx.tv
 +.xnxx3.com
 +.xplr.co
++.xrite.com
 +.xsts.auth.xboxlive.com
 +.xtracloud.net
 +.xv-ru.com
