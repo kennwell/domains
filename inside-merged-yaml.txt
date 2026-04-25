@@ -1586,6 +1586,7 @@
 +.is.fi
 +.island-of-pleasure.site
 +.istories.media
++.it-tools.tech
 +.itasoftware.com
 +.itch.io
 +.itninja.com
