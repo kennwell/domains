@@ -498,6 +498,7 @@ nftset=/clipdrop.co/4#inet#fw4#vpn_domains
 nftset=/cloud.mongodb.com/4#inet#fw4#vpn_domains
 nftset=/cloudburstresearch.com/4#inet#fw4#vpn_domains
 nftset=/cloudflare-dns.com/4#inet#fw4#vpn_domains
+nftset=/cloudflare-ech.com/4#inet#fw4#vpn_domains
 nftset=/cloudflare.com/4#inet#fw4#vpn_domains
 nftset=/cloudfront.net/4#inet#fw4#vpn_domains
 nftset=/cloudfunctions.net/4#inet#fw4#vpn_domains

@@ -498,6 +498,7 @@
 +.cloud.mongodb.com
 +.cloudburstresearch.com
 +.cloudflare-dns.com
++.cloudflare-ech.com
 +.cloudflare.com
 +.cloudfront.net
 +.cloudfunctions.net
