@@ -1669,6 +1669,7 @@
 +.lantern.io
 +.lanternal.com
 +.last.fm
++.launchpad.io
 +.ldoceonline.com
 +.le-production.tv
 +.leafletjs.com
