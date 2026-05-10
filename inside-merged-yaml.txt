@@ -92,6 +92,7 @@
 +.aistudio.google.com
 +.akc.org
 +.alberta.ca
++.algolia.com
 +.alienwarearena.com
 +.alkalicore-pa.clients6.google.com
 +.alkalimakersuite-pa.clients6.google.com
@@ -953,9 +954,7 @@
 +.giphy.com
 +.gipscorp.com
 +.git.new
-+.github.com
 +.githubcopilot.com
-+.githubusercontent.com
 +.gitlab.com
 +.gitlab.io
 +.gkecnapps.cn
@@ -1759,7 +1758,6 @@
 +.mashable.com
 +.master.qt.io
 +.material.io
-+.matrix.org
 +.mattermost.com
 +.max.com
 +.maximintegrated.com
