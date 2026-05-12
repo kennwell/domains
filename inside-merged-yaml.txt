@@ -2895,6 +2895,7 @@
 +.wear.googleapis.com
 +.weather.com
 +.web.app
++.web.archive.org
 +.web.dev
 +.webappfieldguide.com
 +.webchannel-alkalimakersuite-pa.clients6.google.com
