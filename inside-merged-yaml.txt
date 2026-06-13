@@ -2159,6 +2159,7 @@
 +.publishproxy.com
 +.pump.fun
 +.pvpessence.com
++.pxl.to
 +.qagpublic.qatp1.net
 +.qaweb.dev
 +.qcad.org
@@ -2565,6 +2566,7 @@
 +.startpage.com
 +.stash.wiki
 +.static-ss.xvideos-cdn.com
++.static.app
 +.static.cdninstagram.com
 +.static.files.bbci.co.uk
 +.static.hotjar.com
