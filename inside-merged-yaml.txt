@@ -47,6 +47,7 @@
 +.adam-audio.com
 +.adblockplus.org
 +.adgoogle.net
++.adguard-vpn.com
 +.adguard.com
 +.adidas.com
 +.admeld.com
@@ -767,6 +768,7 @@
 +.etsy.com
 +.eu-iot-prod.aws.tcljd.com
 +.euronews.com
++.europesays.com
 +.euroradio.fm
 +.eutrp.eu
 +.event.on24.com
@@ -876,7 +878,12 @@
 +.foxnews.com
 +.foxtrot.com.ua
 +.fragment.com
++.framer.app
 +.framer.com
++.framercanvas.com
++.framercdn.com
++.framerstatic.com
++.framerusercontent.com
 +.freecodecamp.org
 +.freediscussions.com
 +.freedomletters.org
@@ -1408,6 +1415,7 @@
 +.imgur.com
 +.impermium.com
 +.important-stories.com
++.incy.cc
 +.indeed.com
 +.indiehackers.com
 +.infineon.com
@@ -1599,6 +1607,7 @@
 +.jetbrains.ai
 +.jetbrains.com
 +.jetbrains.space
++.jetbrains.team
 +.jibemobile.com
 +.jnn-pa.googleapis.com
 +.joesandbox.com
@@ -1610,8 +1619,6 @@
 +.jules.google.com
 +.jut-su.net
 +.jut.su
-+.jw-russia.org
-+.jw.org
 +.kaggle.com
 +.kaggle.io
 +.kaggle.net
@@ -1745,6 +1752,7 @@
 +.malw.link
 +.malwarebytes.com
 +.malwarebytes.org
++.manga-chan.me
 +.mangadex.org
 +.mangahub.ru
 +.mangapark.net
@@ -1810,6 +1818,7 @@
 +.mistral.ai
 +.mixcloud.com
 +.mixpanel.com
++.mmcdn.com
 +.mobile.events.data.microsoft.com
 +.mobileview.page
 +.modrinth.com
@@ -2034,6 +2043,7 @@
 +.paxlicense.org
 +.pay.buckaroo.nl
 +.paypal.com
++.paywithmoon.com
 +.pb.wtf
 +.pbs.twimg.com
 +.pcbway.com
@@ -2459,6 +2469,8 @@
 +.setapp.com
 +.severreal.org
 +.sfdcopens.com
++.sharefile.com
++.sharefile.io
 +.sharewood-zerkalo.com
 +.sharewood.co
 +.sheerid.com
@@ -2477,6 +2489,7 @@
 +.siemens-home.bsh-group.com
 +.siemens.com
 +.signal.org
++.sigsauer.com
 +.simplex.chat
 +.simplex.im
 +.simplix.info
@@ -2628,6 +2641,7 @@
 +.synergyse.com
 +.synoforum.com
 +.sysdig.com
++.syslog-ng.com
 +.systemtek.co.uk
 +.t-invariant.org
 +.t.co
