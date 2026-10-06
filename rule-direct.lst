@@ -1,6 +1,23 @@
 # no US ip
+
+# bybit
 .bybit-aws.com
 .bybit.com
+.bybit.biz
+.bybit.org
+.bybitglobal.com
+.byabcde.com
+.byapps.net
+.bybdc6.com
+.byd3c3.com
+.bytick.com
+.ng-dex.com
+.byffbb.com
+
+.bybit*.*
+
+
+
 .pionex.com
 
 .ogne.top
