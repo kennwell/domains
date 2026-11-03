@@ -1,3 +1,6 @@
+# wrong ip
+192.0.2.1/32
+
 
 # telegram ip
 # from https://core.telegram.org/resources/cidr.txt
@@ -18,4 +21,4 @@
 # 2a0a:f280::/32
 
 # dns
-1.1.1.1/32
+# 1.1.1.1/32

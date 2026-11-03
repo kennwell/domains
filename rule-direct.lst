@@ -1,20 +1,10 @@
 # no US ip
 
-# bybit
+# bybit - дополнительно к geosite:bybit
 .bybit-aws.com
-.bybit.com
-.bybit.biz
 .bybit.org
-.bybitglobal.com
-.byabcde.com
-.byapps.net
-.bybdc6.com
-.byd3c3.com
-.bytick.com
-.ng-dex.com
 .byffbb.com
-
-.bybit*.*
+.ng-dex.com
 
 # kz
 .hoster.kz
@@ -33,17 +23,9 @@
 
 # max
 .ifconfig.me
-.okcdn.ru
-.oneme.ru
-.vk-analytics.ru
-.yandex.net
-.apptracer.ru
-.trace-flow.ru
-.mycdn.me
 
 # yandex map iphone
 
-.yandex.net
 .inappcheck.itunes.apple.com
 .mzstorekit.itunes.apple.com
 
@@ -59,69 +41,18 @@
 
 
 # apple
-# .apple.com
-# .icloud.com
 .apple-dns.net
 
-# домены, IP которых неправильно определяется как не Ру
-.tns-e.ru
-.kinopoisk.ru
-.centrinvest.ru
 
 # сайты, которые открываются только внутри России
 
-.loccitane.ru
-
-.rzd.ru
-.rzd-bonus.ru
-.pochta.ru
-.russianpost.ru
-.dzvr.ru
-
-# other
-
-.avtodor-tr.ru
-.onelya.ru
-.bitrix.info
-.bkvet.ru
-.ozon.ru
-.ozone.ru
-.ozonusercontent.com
-.yadro.ru
-.kinopoisk.ru
-.lemanapro.ru
-.leroymerlin.ru
-.mosenergosbyt.ru
-.mosoblgaz.ru
-.mosobleirc.ru
-.xn--90aijkdmaud0d.xn--p1ai
-
-.pesc.ru
-.showip.net
-.ttk.ru
-
 
 # avito
-.avito.ru
-.avito.st
-.adriver.ru
-.uxfeedback.ru
 .hybrid.ai
 .simbad.pro
 .taglitics.com
-.soloway.ru
 .tube.buzzoola.com
 
 # rutube
-.weborama-tech.ru
-.rutube.ru
-.expf.ru
 .vigo.one
-.adfox.ru
-.rutubelist.ru
-.uxfeedback.ru
 .code.createjs.com
-.rtbcdn.ru
-.tns-counter.ru
-
-.midural.ru

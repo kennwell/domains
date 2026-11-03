@@ -1,31 +1,29 @@
 # отправлять трафик в US
 
 # hosting
-+.the.hosting
-+.qyrax.net
-+.proxys.io
+.the.hosting
+.qyrax.net
+.proxys.io
 
 # ai
 
-# +.wisprflow.ai
-+.wispr*.*
-# +.deepl.com
-+.suno.ai
-+.suno.com
-+.veed.io
+.deepl.com
+.suno.ai
+.suno.com
+.veed.io
 
 
 # ip info
-+.ipinfo.io
-+.ifconfig.co
+.ipinfo.io
+.ifconfig.co
 
 
 # brain music
-+.focusatwill.com
-+.brain.fm
+.focusatwill.com
+.brain.fm
 
 
 # чтобы оплаты были в долларах, а не в евро
-+.stripe.com
+.stripe.com
 
 
