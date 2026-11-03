@@ -16,6 +16,9 @@
 103.137.193.53/32
 
 # max
-12.181.26.47/32
-12.100.119.90/32
+# Есть репозиторий fatyzzz/max-list. Его автор ежедневно извлекает списки из клиента MAX и публикует их в релизах. По свежему релизу от 3 ноября:
+# Определение IP: api.ipify.org, checkip.amazonaws.com, ifconfig.me, ip.mail.ru, ipv4-internet.yandex.net, ipv6-internet.yandex.net.
+# Проверка доступности (детект VPN): calls.okcdn.ru, gosuslugi.ru, gstatic.com, main.telegram.org, mmg.whatsapp.net, mtalk.google.com, pushtrs.push.hicloud.com, pushtrs1.push.hicloud.com, token-drcn.push.dbankcloud.com.
+
+155.212.192.0/20
 
