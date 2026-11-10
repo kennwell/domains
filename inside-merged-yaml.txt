@@ -94,6 +94,7 @@
 +.aisandbox-pa.googleapis.com
 +.aistudio.google.com
 +.akc.org
++.akkadia.org
 +.alberta.ca
 +.algolia.com
 +.alienwarearena.com
@@ -564,6 +565,7 @@
 +.contest.com
 +.cookiechoices.org
 +.cookielaw.org
++.coolserver-coolleo.com
 +.coomer.su
 +.coova.com
 +.coova.net
@@ -746,6 +748,7 @@
 +.doxajournal.ru
 +.dpidetector.org
 +.dreamhost.com
++.drivesaversdatarecovery.com
 +.dual-a-0001.a-msedge.net
 +.dub.sh
 +.ducati.com
@@ -830,6 +833,7 @@
 +.elevenreader.io
 +.elgato.com
 +.elgiganten.se
++.embedded.com
 +.emmapplecodevice.googleapis.com
 +.eneba.com
 +.engagor.com
@@ -2396,6 +2400,7 @@
 +.robinfrontend-pa.googleapis.com
 +.romsgames.net
 +.root-nation.com
++.rose-hulman.edu
 +.roskomsvoboda.org
 +.rpm.grafana.com
 +.ru.bellingcat.com
@@ -2573,6 +2578,7 @@
 +.segment.com
 +.segment.io
 +.selezen.org
++.selinc.com
 +.semnasem.org
 +.semrush.com
 +.sendsafely.com
