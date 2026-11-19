@@ -219,6 +219,7 @@ nftset=/audio4-ak-spotify-com.akamaized.net/4#inet#fw4#vpn_domains
 nftset=/audiobookbay.lu/4#inet#fw4#vpn_domains
 nftset=/audioscrobbler.com/4#inet#fw4#vpn_domains
 nftset=/augmentcode.com/4#inet#fw4#vpn_domains
+nftset=/aukro.cz/4#inet#fw4#vpn_domains
 nftset=/auth.grazie.ai/4#inet#fw4#vpn_domains
 nftset=/auth.openai.com/4#inet#fw4#vpn_domains
 nftset=/auth0.openai.com/4#inet#fw4#vpn_domains
