@@ -1,0 +1,8 @@
+{
+  "balances": [
+    { "provider": "kilo", "enabled": true },
+    { "provider": "openrouter", "enabled": true },
+    { "provider": "outrun", "enabled": true },
+    { "provider": "refuseless", "enabled": true }
+  ]
+}
