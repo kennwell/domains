@@ -1,64 +1,64 @@
 # no US ip
 
 # bybit - дополнительно к geosite:bybit
-.bybit-aws.com
-.bybit.org
-.byffbb.com
-.ng-dex.com
-.bybit.eu
-.bybit.kz
++.bybit-aws.com
++.bybit.org
++.byffbb.com
++.ng-dex.com
++.bybit.eu
++.bybit.kz
 
 # amediateka
-.amediateka.ru
-.amediateka.tech
++.amediateka.ru
++.amediateka.tech
 
 # kz
-.hoster.kz
++.hoster.kz
 
-.pionex.com
++.pionex.com
 
-.ogne.top
++.ogne.top
 
-.polaris-iot.com
-.polaris.com
-.polaris.ru
++.polaris-iot.com
++.polaris.com
++.polaris.ru
 
-.lichess.org
-.lichess1.org
-.lichess*.*
++.lichess.org
++.lichess1.org
++.lichess*.*
 
 # max
 # .ifconfig.me
 
 # yandex map iphone
 
-.inappcheck.itunes.apple.com
-.mzstorekit.itunes.apple.com
++.inappcheck.itunes.apple.com
++.mzstorekit.itunes.apple.com
 
-.6s3yaq-cdn-settings.appsflyersdk.com
-.6s3yaq-inapps.appsflyersdk.com
-.6s3yaq-launches.appsflyersdk.com
++.6s3yaq-cdn-settings.appsflyersdk.com
++.6s3yaq-inapps.appsflyersdk.com
++.6s3yaq-launches.appsflyersdk.com
 
-.crashlyticsreports-pa.googleapis.com
-.firebaselogging-pa.googleapis.com
++.crashlyticsreports-pa.googleapis.com
++.firebaselogging-pa.googleapis.com
 
-.firebase-settings.crashlytics.com
-.ocsp.globalsign.com
++.firebase-settings.crashlytics.com
++.ocsp.globalsign.com
 
 
 # apple
-.apple-dns.net
++.apple-dns.net
 
 
 # сайты, которые открываются только внутри России
 
 
 # avito
-.hybrid.ai
-.simbad.pro
-.taglitics.com
-.tube.buzzoola.com
++.hybrid.ai
++.simbad.pro
++.taglitics.com
++.tube.buzzoola.com
 
 # rutube
-.vigo.one
-.code.createjs.com
++.vigo.one
++.code.createjs.com
