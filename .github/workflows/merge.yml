@@ -60,6 +60,40 @@ jobs:
         run: |
           grep -E '\.(moscow|ru|su|tatar|xn--80adxhks|xn--80asehdb|xn--80aswg|xn--c1avg|xn--d1acj3b|xn--p1acf|xn--p1ai)$' inside-merged-yaml.txt > inside-merged-ru-yaml.txt || true
 
+      - name: Fetch and build ru-mobile-whitelist.lst
+        # Downloads the RU mobile internet whitelist (SNI) and converts it to '+.domain' format
+        # only if the upstream file has changed (checked via SHA-256 stored in the header).
+        run: |
+          SRC_URL="https://raw.githubusercontent.com/ancored/ru-mobile-whitelist/release/ru-mobile-whitelist-sni.txt"
+          OUT_FILE="ru-mobile-whitelist.lst"
+          TMP_FILE="/tmp/ru-mobile-whitelist-sni.txt"
+
+          if ! curl -sfL "$SRC_URL" -o "$TMP_FILE"; then
+            echo "Failed to fetch $SRC_URL, keeping existing $OUT_FILE"
+            exit 0
+          fi
+
+          NEW_HASH=$(sha256sum "$TMP_FILE" | awk '{print $1}')
+          OLD_HASH=$(sed -n 's/^# Source-SHA256: //p' "$OUT_FILE" 2>/dev/null || true)
+
+          if [ -f "$OUT_FILE" ] && [ "$NEW_HASH" = "$OLD_HASH" ]; then
+            echo "Upstream file unchanged ($NEW_HASH), skipping conversion."
+            exit 0
+          fi
+
+          {
+            echo "# Source: $SRC_URL"
+            echo "# Repo: https://github.com/ancored/ru-mobile-whitelist"
+            echo "# Source-SHA256: $NEW_HASH"
+            grep -v '^#' "$TMP_FILE" | grep -v '^[[:space:]]*$' | sort -u | \
+              awk 'BEGIN{OFS=""}
+                   /^\+\./        {print; next}
+                   /^\./          {print "+",$0; next}
+                   /^[A-Za-z0-9]/ {print "+.",$0; next}
+                                  {print}
+              '
+          } > "$OUT_FILE"
+
       - name: Commit and push if changed
         # Configures git, commits any changes to the domain list files, and pushes to the main branch.
         run: |
@@ -67,7 +101,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           # Stage the updated domain list files.
-          git add inside-raw-itdog.lst inside-raw-merged.lst inside-dnsmasq-nfset.lst inside-merged-yaml.txt inside-merged-ru-yaml.txt
+          git add inside-raw-itdog.lst inside-raw-merged.lst inside-dnsmasq-nfset.lst inside-merged-yaml.txt inside-merged-ru-yaml.txt ru-mobile-whitelist.lst
           # Commit only if there are staged changes.
           git diff --cached --quiet || git commit -m "Update domain lists"
           # Push commits to the main branch using the provided GitHub token.
