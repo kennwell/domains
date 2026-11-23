@@ -1,6 +1,7 @@
 # Source: https://raw.githubusercontent.com/ancored/ru-mobile-whitelist/release/ru-mobile-whitelist-sni.txt
 # Repo: https://github.com/ancored/ru-mobile-whitelist
-# Source-SHA256: e67b565cc061274ac3b7ef4e39437692eb3df7e7a9f16334274f890516df983d
+# Exceptions: whitelist-exceptions.lst
+# Source-SHA256: 0a40b2e0ca71edaaef57d340bdf78863a669e9084f123d9d2da4136c3554fe0a
 +.1c-bitrix.ru
 +.1c.ru
 +.1cfresh.com
@@ -23,7 +24,6 @@
 +.2gis.tj
 +.2gis.ua
 +.2gis.uz
-+.2ip.ru
 +.2w.ru
 +.360.ru
 +.47news.ru
@@ -189,7 +189,6 @@
 +.cdnvideo.com
 +.centraluniversity.ru
 +.centrinvest.ru
-+.checkip.amazonaws.com
 +.chel.ru
 +.chelindbank.ru
 +.chelinvest.ru
@@ -408,7 +407,6 @@
 +.icqtutor.com
 +.icqvideo.com
 +.idx5.ru
-+.ifconfig.me
 +.iitrust.ru
 +.ilovesakura.ru
 +.imgsmail.ru
@@ -419,10 +417,6 @@
 +.internet.ru
 +.investalfabank.com
 +.investpay.ru
-+.ip.sb
-+.ipapi.is
-+.ipify.org
-+.iplocate.io
 +.irk.ru
 +.irkutsk.ru
 +.isnbank.ru
