@@ -7,6 +7,7 @@
 - `rule-direct.lst`, `rule-to-proxy.lst`, `rule-to-us.lst`, `rule-to-nl.lst` — ручные списки доменов для `behavior: domain`, `format: text` (формат записей: `+.example.com`).
 - `rule-direct-ip.lst`, `rule-to-proxy-ip.lst`, `rule-tg-ip.lst` — списки IP/CIDR для `behavior: ipcidr`.
 - `ru-mobile-whitelist.lst` — автообновляемый белый список доменов мобильного интернета РФ (источник: [ancored/ru-mobile-whitelist](https://github.com/ancored/ru-mobile-whitelist), формат `+.example.com`).
+- `whitelist-exceptions.lst` — список доменов-исключений, которые вырезаются из `ru-mobile-whitelist.lst` при сборке (включая поддомены).
 - `inside-raw.lst` — локальный список доменов.
 - `inside-raw-itdog.lst`, `inside-raw-merged.lst`, `inside-dnsmasq-nfset.lst`, `inside-merged-yaml.txt`, `inside-merged-ru-yaml.txt` — автогенерируемые списки.
 

@@ -61,11 +61,13 @@ jobs:
           grep -E '\.(moscow|ru|su|tatar|xn--80adxhks|xn--80asehdb|xn--80aswg|xn--c1avg|xn--d1acj3b|xn--p1acf|xn--p1ai)$' inside-merged-yaml.txt > inside-merged-ru-yaml.txt || true
 
       - name: Fetch and build ru-mobile-whitelist.lst
-        # Downloads the RU mobile internet whitelist (SNI) and converts it to '+.domain' format
-        # only if the upstream file has changed (checked via SHA-256 stored in the header).
+        # Downloads the RU mobile internet whitelist (SNI), filters out domains from
+        # whitelist-exceptions.lst, and converts to '+.domain' format only if either
+        # the upstream file or whitelist-exceptions.lst has changed (checked via SHA-256).
         run: |
           SRC_URL="https://raw.githubusercontent.com/ancored/ru-mobile-whitelist/release/ru-mobile-whitelist-sni.txt"
           OUT_FILE="ru-mobile-whitelist.lst"
+          EXC_FILE="whitelist-exceptions.lst"
           TMP_FILE="/tmp/ru-mobile-whitelist-sni.txt"
 
           if ! curl -sfL "$SRC_URL" -o "$TMP_FILE"; then
@@ -73,25 +75,52 @@ jobs:
             exit 0
           fi
 
-          NEW_HASH=$(sha256sum "$TMP_FILE" | awk '{print $1}')
+          if [ -f "$EXC_FILE" ]; then
+            NEW_HASH=$(cat "$TMP_FILE" "$EXC_FILE" | sha256sum | awk '{print $1}')
+            EXC_INPUT="$EXC_FILE"
+          else
+            NEW_HASH=$(sha256sum "$TMP_FILE" | awk '{print $1}')
+            EXC_INPUT="/dev/null"
+          fi
           OLD_HASH=$(sed -n 's/^# Source-SHA256: //p' "$OUT_FILE" 2>/dev/null || true)
 
           if [ -f "$OUT_FILE" ] && [ "$NEW_HASH" = "$OLD_HASH" ]; then
-            echo "Upstream file unchanged ($NEW_HASH), skipping conversion."
+            echo "Upstream and exceptions unchanged ($NEW_HASH), skipping conversion."
             exit 0
           fi
 
           {
             echo "# Source: $SRC_URL"
             echo "# Repo: https://github.com/ancored/ru-mobile-whitelist"
+            echo "# Exceptions: $EXC_FILE"
             echo "# Source-SHA256: $NEW_HASH"
-            grep -v '^#' "$TMP_FILE" | grep -v '^[[:space:]]*$' | sort -u | \
-              awk 'BEGIN{OFS=""}
-                   /^\+\./        {print; next}
-                   /^\./          {print "+",$0; next}
-                   /^[A-Za-z0-9]/ {print "+.",$0; next}
-                                  {print}
-              '
+            awk '
+              NR == FNR {
+                sub(/\r$/, "")
+                gsub(/^[[:space:]]+|[[:space:]]+$/, "")
+                if ($0 == "" || $0 ~ /^#/) next
+                sub(/^\+?\./, "")
+                exc[$0] = 1
+                next
+              }
+              {
+                sub(/\r$/, "")
+                gsub(/^[[:space:]]+|[[:space:]]+$/, "")
+                if ($0 == "" || $0 ~ /^#/) next
+                d = $0
+                sub(/^\+?\./, "", d)
+                if (d in exc) next
+                skip = 0
+                for (e in exc) {
+                  if (length(d) > length(e) && substr(d, length(d) - length(e)) == "." e) {
+                    skip = 1
+                    break
+                  }
+                }
+                if (skip) next
+                print "+." d
+              }
+            ' "$EXC_INPUT" "$TMP_FILE" | sort -u
           } > "$OUT_FILE"
 
       - name: Commit and push if changed

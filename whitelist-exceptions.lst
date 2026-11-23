@@ -1,0 +1,9 @@
+# исключения - домены, которые не попадают в наш список доменов из белых списков
+
+2ip.ru
+checkip.amazonaws.com
+ifconfig.me
+ip.sb
+ipapi.is
+ipify.org
+iplocate.io
